@@ -3,9 +3,9 @@ const seedrandom = require('seedrandom');
 const admin = require('firebase-admin');
 //admin.initializeApp(functions.config().firebase);
 //admin.initializeApp(process.env.FIREBASE_CONFIG)
-admin.initializeApp({
-  databaseURL: "https://neoworks-prod.firebaseio.com/",
-});
+//admin.initializeApp({
+//  databaseURL: "https://neoworks-prod.firebaseio.com/",
+//});
 //admin.initializeApp();
 
 // Fisher-Yates (aka Knuth) Shuffle
@@ -51,11 +51,11 @@ exports.marksix = (req, res) => {
     "random_generator" : "Seeded ARC4-based PRNG"
   };
  
-  admin.database().ref('user_draws').push().set(arr, function(error) {
-    if (error) {
-      alert(error);
-    } else {
+//  admin.database().ref('user_draws').push().set(arr, function(error) {
+//    if (error) {
+//      alert(error);
+//    } else {
       res.send(arr);
-    }
-  });
+//    }
+//  });
 };
