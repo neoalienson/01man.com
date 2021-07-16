@@ -1,0 +1,17 @@
+steps:
+  - name: node
+    args:
+      - install
+    dir: functions/marksix
+    entrypoint: npm
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    args:
+      - gcloud
+      - functions
+      - deploy
+      - marksix
+      - '--region=asia-east2'
+      - '--source=functions/marksix'
+      - '--trigger-http'
+      - '--runtime=nodejs10'
+      - '--allow-unauthenticated'
