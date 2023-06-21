@@ -54,12 +54,11 @@ steps:
 - script: |
       rm -rf temp
       git clone https://neoalienson:$(GH_TOKEN)@github.com/neoalienson/01man.com-web.git temp
-      rm -rf temp/docs
-      cp -R hexo-blog/public temp/docs
-      cd temp 
+      cd temp
+      git checkout HEAD~1
+      cp -R ../hexo-blog/public docs
       git add docs
       git commit -m "Release"
-      git push
-      cd ..
-      rm -rf temp
+      git rebase --onto HEAD@{1} HEAD
+      git push --force origin main
   displayName: 'Push to GitHub'
