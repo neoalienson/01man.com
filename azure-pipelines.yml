@@ -52,14 +52,14 @@ steps:
   displayName: 'Configure Git'
 
 - script: |
-      cp -R hexo-blog/public .
-      git restore hexo-blog/_config.yml
-      git fetch
-      git checkout gh-pages
-      git remote set-url origin https://neoalienson:$(GH_TOKEN)@github.com/neoalienson/01man.com.git
-      rm -rf docs
-      mv public docs
+      rm -rf temp
+      git clone -b gh-pages https://neoalienson:$(GH_TOKEN)@github.com/neoalienson/01man.com.git temp
+      rm -rf temp/docs
+      cp -R hexo-blog/public temp/docs
+      cd temp 
       git add docs
       git commit -m "Release"
       git push
+      cd ..
+      rm -rf temp
   displayName: 'Push to GitHub'
