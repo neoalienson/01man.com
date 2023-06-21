@@ -1,0 +1,65 @@
+trigger:
+ branches:
+  include:
+  - refs/heads/main
+
+pool:
+  name: Default
+
+steps:
+- checkout: self
+  displayName: 'Checkout repository including submodules'
+  submodules: true
+
+- script: |
+    pip install yamllint
+    find . -iname "*.md" -o -iname "*.yaml" | while read -r yaml_file; do
+      echo "$yaml_file"
+      cat $yaml_file | sed -n '/^---/,/---/p' | yamllint -c ../../yamllint.conf -
+    done
+  workingDirectory: hexo-blog/source
+  displayName: 'Check YAML headers in markdown'
+
+
+- script: npm install
+  workingDirectory: hexo-blog
+  displayName: 'Install dependencies'
+
+- script: |
+    sed -i "s/all_minifier: false/all_minifier: true/" _config.yml
+    sed -i "s/enable:.*false.*#.*js_concator/enable: true/" _config.yml
+    cat _config.yml
+  workingDirectory: hexo-blog
+  displayName: 'Enable all_minifier and js_concator'
+
+- script: hexo generate
+  workingDirectory: hexo-blog
+  displayName: 'Build with Hexo'
+
+- script: |
+    if [ -n "$(find public/js/bundle.js -type f -size +256c)" ]; then
+      exit 0
+    else
+      echo "No files found or file size is less than 256 bytes"
+      exit 1
+    fi
+  workingDirectory: hexo-blog
+  displayName: 'Check generates'
+
+- script: |
+      git config --global user.email "neo@01man.com"
+      git config --global user.name "Neo Alienson"
+  displayName: 'Configure Git'
+
+- script: |
+      cp -R hexo-blog/public .
+      git restore hexo-blog/_config.yml
+      git fetch
+      git checkout gh-pages
+      git remote set-url origin https://neoalienson:$(GH_TOKEN)@github.com/neoalienson/01man.com.git
+      rm -rf docs
+      mv public docs
+      git add docs
+      git commit -m "Release"
+      git push
+  displayName: 'Push to GitHub'

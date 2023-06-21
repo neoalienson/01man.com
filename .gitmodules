@@ -1,0 +1,4 @@
+[submodule "hexo-theme-hueman"]
+	path = hexo-blog/themes/hexo-theme-hueman
+	url = https://github.com/neoalienson/hexo-theme-hueman.git
+        branch = main
