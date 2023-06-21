@@ -53,7 +53,7 @@ steps:
 
 - script: |
       rm -rf temp
-      git clone -b gh-pages https://neoalienson:$(GH_TOKEN)@github.com/neoalienson/01man.com.git temp
+      git clone https://neoalienson:$(GH_TOKEN)@github.com/neoalienson/01man.com-web.git temp
       rm -rf temp/docs
       cp -R hexo-blog/public temp/docs
       cd temp 
