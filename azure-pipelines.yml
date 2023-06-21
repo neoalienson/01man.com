@@ -55,10 +55,9 @@ steps:
       rm -rf temp
       git clone https://neoalienson:$(GH_TOKEN)@github.com/neoalienson/01man.com-web.git temp
       cd temp
-      git checkout HEAD~1
+      git reset HEAD~1 --hard
       cp -R ../hexo-blog/public docs
       git add docs
       git commit -m "Release"
-      git rebase --onto HEAD@{1} HEAD
       git push --force origin main
   displayName: 'Push to GitHub'
