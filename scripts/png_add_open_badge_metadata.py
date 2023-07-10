@@ -3,14 +3,15 @@ import hashlib
 from PIL import Image, PngImagePlugin
 
 # Read the image from the local file
-img = Image.open(image_file)
+pathname = "alibaba_cloud_certified_alibaba_big_data_associate.png"
+img = Image.open(pathname)
 
 # Prepare the metadata
 metadata = {
     "@context": "https://w3id.org/openbadges/v2",
     "type": "Assertion",
     "issuedOn": "2023-06-14T12:02:10.852381+00:00",
-    "image": "https://01man.com/about-me/alibaba_cloud_native_associate.png"
+    "image": f"https://01man.com/about-me/{pathname}"
 }
 
 
@@ -18,6 +19,6 @@ metadata = {
 img_text = json.dumps(metadata, ensure_ascii=False)
 png_info = PngImagePlugin.PngInfo()
 png_info.add_itxt("openbadges", img_text)
-img.save("badge_with_metadata.png", "PNG", pnginfo=png_info)
+img.save(pathname, "PNG", pnginfo=png_info)
 
-print("Badge image saved as 'badge_with_metadata.png'.")
+print(f"Badge image saved as '{pathname}'.")
