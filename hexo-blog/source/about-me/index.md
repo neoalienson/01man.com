@@ -47,6 +47,10 @@ Email: neo@01man.com
 
 ![Microsoft Certified: Azure Fundamentals](microsoft-certified-azure-fundamentals-cert.png)
 
+
+### Microsoft and LinkedIn
+![Career Essentials in Generative AI by Microsoft and LinkedIn](career_essentials_in_generative_ai.png)
+
 ### Alibaba Cloud
 
 ![Certified Cloud Computing Professional](alibaba_cloud_certified_cloud_computing_professional-cert.png)
