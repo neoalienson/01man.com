@@ -55,6 +55,8 @@ Email: neo@01man.com
 
 ![Certified Cloud Computing Professional](alibaba_cloud_certified_cloud_computing_professional-cert.png)
 
+![Certified Cloud Networking Professional](alibaba_cloud_certified_cloud_networking_professional-cert.png)
+
 ![Certified Cloud Native Associate](alibaba_cloud_native_associate-cert.png)
 
 ![Certified Cloud Computing Associate](alibaba_cloud_computing_associate-cert.png)
