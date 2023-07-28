@@ -49,6 +49,8 @@ This page contains useful information to myself. It also serve as a testing page
 * Show the number of ahead of behind between branches ```git rev-list --left-right count [branch]...[another branch]```
 * Update submodules with latest commit ```git submodule update --remote```
 
+### Windows
+* Remove XBox with Powershell ```Get-ProvisionedAppxPackage -Online | Where-Object { $_.PackageName -match "xbox" } | ForEach-Object { Remove-ProvisionedAppxPackage -Online -AllUsers -PackageName $_.PackageName }```
 ## Learning
 
 * [CodeSchool](https://www.codeschool.com)
