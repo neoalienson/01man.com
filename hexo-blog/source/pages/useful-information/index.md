@@ -51,6 +51,8 @@ This page contains useful information to myself. It also serve as a testing page
 
 ### Windows
 * Remove XBox with Powershell ```Get-ProvisionedAppxPackage -Online | Where-Object { $_.PackageName -match "xbox" } | ForEach-Object { Remove-ProvisionedAppxPackage -Online -AllUsers -PackageName $_.PackageName }```
+* Check if any Xbox application is left ```dism /Online /Get-ProvisionedAppxPackages | Select-String PackageName | Select-String xbox```
+
 ## Learning
 
 * [CodeSchool](https://www.codeschool.com)
