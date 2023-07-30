@@ -20,6 +20,13 @@ left-space{
 }
 </style>
 
+## Base
+<box></box><box>        </box><box>        </box><box>        </box><box>        </box><box>        </box><box></box><box>        </box><box>        </box><box>        </box><box>        </box><box>        </box><box></box>
+<box></box><kbd>Q       </kbd><kbd>G       </kbd><kbd>M       </kbd><kbd>L       </kbd><kbd>W       </kbd><box></box><kbd>Y       </kbd><kbd>F       </kbd><kbd>U       </kbd><kbd>B       </kbd><kbd>;       </kbd><box></box>
+<box></box><kbd>D       </kbd><kbd>S       </kbd><kbd>T       </kbd><kbd>N       </kbd><kbd>R       </kbd><box></box><kbd>I       </kbd><kbd>A       </kbd><kbd>E       </kbd><kbd>O       </kbd><kbd>H       </kbd><box></box>
+<box></box><kbd>Z       </kbd><kbd>X       </kbd><kbd>C       </kbd><kbd>V       </kbd><kbd>J       </kbd><box></box><kbd>K       </kbd><kbd>P       </kbd><kbd>,       </kbd><kbd>.       </kbd><kbd>/       </kbd><box></box>
+<left-space></left-space><kbd>SPACE</kbd><kbd>&#x232B;</kbd><kbd>&#x23CE;</kbd><kbd>TAB</kbd>
+
 ## Left Hand On Hold
 
 <box></box><box>        </box><box>        </box><box>        </box><box>        </box><box>        </box><box></box><box>        </box><box>        </box><box>        </box><box>        </box><box>        </box><box></box>
@@ -53,4 +60,8 @@ left-space{
 <kbd>TAB     </kbd><kbd>Q       </kbd><kbd>W       </kbd><kbd>E       </kbd><kbd>R       </kbd><kbd>T       </kbd><box></box><kbd>Y       </kbd><kbd>U       </kbd><kbd>O       </kbd><kbd>P       </kbd><kbd>;       </kbd><box></box>
 <kbd>&#x21E7;</kbd><kbd>A       </kbd><kbd>S       </kbd><kbd>D       </kbd><kbd>F       </kbd><kbd>G       </kbd><box></box><kbd>H       </kbd><kbd>J       </kbd><kbd>K       </kbd><kbd>L       </kbd><kbd>h       </kbd><box></box>
 <kbd>CTRL    </kbd><kbd>Z       </kbd><kbd>X       </kbd><kbd>C       </kbd><kbd>V       </kbd><kbd>B       </kbd><box></box><kbd>N       </kbd><kbd>M       </kbd><kbd>,       </kbd><kbd>.       </kbd><kbd>/       </kbd><box></box>
-<left-space></left-space><kbd>ALT</kbd><kbd>SPACE</kbd><kbd>SPACE</kbd><kbd>SPACE</kbd>
+<left-space></left-space><kbd>ALT</kbd><kbd>SPACE</kbd><kbd style="background-color: pink">&#x23CE;</kbd><kbd style="background-color: pink">TAB</kbd>
+
+## Key
+<kbd style="background-color: yellow">&#x2800;</kbd> - Hold to activate layer
+<kbd style="background-color: pink">&#x2800;</kbd> - To be update
