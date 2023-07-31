@@ -15,10 +15,11 @@ comments: false
 
 ## My desk
 
-### 2006
+### t2006
 ![My desk at 2006](mydesk-200602.jpg)
 
 ## Misc
+* [My Keymap](../pages/my-keymap)
 * [My Docker Hub](https://hub.docker.com/u/neoalienson/)
 
 ## When did I start using the name Neo
