@@ -73,12 +73,6 @@ comments: false
 
 Email: neo@01man.com
 
-## My StackOverflow
-<a href="https://stackexchange.com/users/2122053/neo"><img src="https://stackexchange.com/users/flair/2122053.png" width="208" height="58" alt="profile for neo on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for neo on Stack Exchange, a network of free, community-driven Q&amp;A sites" /></a>
-
-## My GitHub
-{% githubCard user:neoalienson %}
-
 ## Certificates
 
 ### Google
