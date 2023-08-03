@@ -56,11 +56,11 @@ left-space{
 <left-space></left-space><kbd>-       </kbd><kbd>+       </kbd><kbd>&#x2800;</kbd><kbd style="background-color: yellow">HOLD</kbd>
 
 ## Game Mode
-<kbd>ESC     </kbd><kbd>1       </kbd><kbd>2       </kbd><kbd>3       </kbd><kbd>4       </kbd><kbd>5       </kbd><box></box><kbd>6       </kbd><kbd>7       </kbd><kbd>8       </kbd><kbd>9       </kbd><kbd>0       </kbd><kbd style="background-color: pink">&#x232B;</kbd>
-<kbd>TAB     </kbd><kbd>Q       </kbd><kbd>W       </kbd><kbd>E       </kbd><kbd>R       </kbd><kbd>T       </kbd><box></box><kbd>Y       </kbd><kbd>U       </kbd><kbd>O       </kbd><kbd>P       </kbd><kbd>;       </kbd><kbd style="background-color: pink">\       </kbd>
-<kbd>&#x21E7;</kbd><kbd>A       </kbd><kbd>S       </kbd><kbd>D       </kbd><kbd>F       </kbd><kbd>G       </kbd><box></box><kbd>H       </kbd><kbd>J       </kbd><kbd>K       </kbd><kbd>L       </kbd><kbd>h       </kbd><kbd style="background-color: pink">&#x21E7;</kbd>
-<kbd>CTRL    </kbd><kbd>Z       </kbd><kbd>X       </kbd><kbd>C       </kbd><kbd>V       </kbd><kbd>B       </kbd><box></box><kbd>N       </kbd><kbd>M       </kbd><kbd>,       </kbd><kbd>.       </kbd><kbd>/       </kbd><kbd style="background-color: pink">CTRL    </kbd>
-<left-space style="width: 168px;"></left-space><kbd style="background-color: pink">GUI</kbd><kbd>ALT</kbd><kbd>SPACE</kbd><kbd style="background-color: pink">&#x23CE;</kbd><kbd style="background-color: pink">ALT</kbd><kbd style="background-color: pink">GUI</kbd>
+<kbd>ESC     </kbd><kbd>1       </kbd><kbd>2       </kbd><kbd>3       </kbd><kbd>4       </kbd><kbd>5       </kbd><box></box><kbd>6       </kbd><kbd>7       </kbd><kbd>8       </kbd><kbd>9       </kbd><kbd>0       </kbd><kbd>&#x232B;</kbd>
+<kbd>TAB     </kbd><kbd>Q       </kbd><kbd>W       </kbd><kbd>E       </kbd><kbd>R       </kbd><kbd>T       </kbd><box></box><kbd>Y       </kbd><kbd>U       </kbd><kbd>O       </kbd><kbd>P       </kbd><kbd>;       </kbd><kbd>\       </kbd>
+<kbd>&#x21E7;</kbd><kbd>A       </kbd><kbd>S       </kbd><kbd>D       </kbd><kbd>F       </kbd><kbd>G       </kbd><box></box><kbd>H       </kbd><kbd>J       </kbd><kbd>K       </kbd><kbd>L       </kbd><kbd>h       </kbd><kbd>&#x21E7;</kbd>
+<kbd>CTRL    </kbd><kbd>Z       </kbd><kbd>X       </kbd><kbd>C       </kbd><kbd>V       </kbd><kbd>B       </kbd><box></box><kbd>N       </kbd><kbd>M       </kbd><kbd>,       </kbd><kbd>.       </kbd><kbd>/       </kbd><kbd>CTRL    </kbd>
+<left-space style="width: 168px;"></left-space><kbd>GUI</kbd><kbd>ALT</kbd><kbd>SPACE</kbd><kbd>&#x23CE;</kbd><kbd>ALT</kbd><kbd>EXIT</kbd>
 
 ## Key
 <kbd style="background-color: yellow">&#x2800;</kbd> - Hold to activate layer
