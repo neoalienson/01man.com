@@ -37,7 +37,7 @@ left-space{
 
 <box></box><box>        </box><box>        </box><box>        </box><box>        </box><box>        </box><box></box><box>        </box><box>        </box><box>        </box><box>        </box><box>        </box><box></box>
 <box></box><kbd>ESC     </kbd><kbd>HOME    </kbd><kbd>&#x23F6;</kbd><kbd>END     </kbd><kbd>PGUP    </kbd><box></box><kbd>&#x2800;</kbd><kbd>&#x2800;</kbd><kbd>&#x2800;</kbd><kbd>&#x2800;</kbd><kbd>&#x2800;</kbd><box></box>
-<box></box><kbd>TAB     </kbd><kbd>&#x23F4;</kbd><kbd>&#x23F7;</kbd><kbd>&#x23F5;</kbd><kbd>PGDN    </kbd><box></box><kbd>&#x2800;</kbd><kbd>&#x21E7;</kbd><kbd>CTRL    </kbd><kbd>ALT     </kbd><kbd>GUI     </kbd><box></box>
+<box></box><kbd>TAB     </kbd><kbd>&#x23F4;</kbd><kbd>&#x23F7;</kbd><kbd>&#x23F5;</kbd><kbd>PGDN    </kbd><box></box><kbd>CAPS    </kbd><kbd>&#x21E7;</kbd><kbd>CTRL    </kbd><kbd>ALT     </kbd><kbd>GUI     </kbd><box></box>
 <box></box><kbd>&#x23CE;</kbd><kbd>&#x2800;</kbd><kbd>INS     </kbd><kbd>DEL     </kbd><kbd>&#x2800;</kbd><box></box><kbd>&#x2800;</kbd><kbd>&#x2800;</kbd><kbd>&#x2800;</kbd><kbd>&#x2800;</kbd><kbd>&#x2800;</kbd><box></box>
 <left-space></left-space><kbd>&#x2800;</kbd><kbd style="background-color: yellow">HOLD</kbd><kbd>&#x2800;</kbd><kbd>&#x2800;</kbd><box></box><box></box><box></box><box></box><box></box>
 
@@ -60,7 +60,7 @@ left-space{
 <kbd>TAB     </kbd><kbd>Q       </kbd><kbd>W       </kbd><kbd>E       </kbd><kbd>R       </kbd><kbd>T       </kbd><box></box><kbd>Y       </kbd><kbd>U       </kbd><kbd>O       </kbd><kbd>P       </kbd><kbd>;       </kbd><kbd>\       </kbd>
 <kbd>&#x21E7;</kbd><kbd>A       </kbd><kbd>S       </kbd><kbd>D       </kbd><kbd>F       </kbd><kbd>G       </kbd><box></box><kbd>H       </kbd><kbd>J       </kbd><kbd>K       </kbd><kbd>L       </kbd><kbd>h       </kbd><kbd>&#x21E7;</kbd>
 <kbd>CTRL    </kbd><kbd>Z       </kbd><kbd>X       </kbd><kbd>C       </kbd><kbd>V       </kbd><kbd>B       </kbd><box></box><kbd>N       </kbd><kbd>M       </kbd><kbd>,       </kbd><kbd>.       </kbd><kbd>/       </kbd><kbd>CTRL    </kbd>
-<left-space style="width: 168px;"></left-space><kbd>GUI</kbd><kbd>ALT</kbd><kbd>SPACE</kbd><kbd>&#x23CE;</kbd><kbd>ALT</kbd><kbd>EXIT</kbd>
+<left-space style="width: 168px;"></left-space><kbd>ALT</kbd><kbd>GUI</kbd><kbd>SPACE</kbd><kbd>&#x23CE;</kbd><kbd style="background-color: yellow">HOLD</kbd><kbd>ALT</kbd>
 
 ## Key
 <kbd style="background-color: yellow">&#x2800;</kbd> - Hold to activate layer
