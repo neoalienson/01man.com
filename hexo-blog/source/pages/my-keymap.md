@@ -50,9 +50,9 @@ left-space{
 <left-space></left-space><kbd>&#x2800;</kbd><kbd>&#x2800;</kbd><kbd style="background-color: yellow">HOLD</kbd><kbd>&#x2800;</kbd>
 
 <box></box><box>        </box><box>        </box><box>        </box><box>        </box><box>        </box><box></box><box>        </box><box>        </box><box>        </box><box>        </box><box>        </box><box></box>
-<box></box><kbd>!       </kbd><kbd>@       </kbd><kbd>#       </kbd><kbd>$       </kbd><kbd>%       </kbd><box></box><kbd>^       </kbd><kbd>&       </kbd><kbd>*       </kbd><kbd>=       </kbd><kbd>GAME    </kbd><box></box>
+<box></box><kbd>!       </kbd><kbd>@       </kbd><kbd>#       </kbd><kbd>$       </kbd><kbd>%       </kbd><box></box><kbd>^       </kbd><kbd>&       </kbd><kbd>*       </kbd><kbd>=       </kbd><kbd style="background-color: lightblue">GAME    </kbd><box></box>
 <box></box><kbd>GUI     </kbd><kbd>ALT     </kbd><kbd>CTRL    </kbd><kbd>&#x21E7;</kbd><kbd>|       </kbd><box></box><kbd>\       </kbd><kbd>&#x21E7;</kbd><kbd>CTRL    </kbd><kbd>ALT     </kbd><kbd>GUI     </kbd><box></box>
-<box></box><kbd>~       </kbd><kbd>`       </kbd><kbd>_       </kbd><kbd>'       </kbd><kbd>"       </kbd><box></box><kbd>&#x2800;</kbd><kbd>CAPS    </kbd><kbd>&#x2800;</kbd><kbd>&#x2800;</kbd><kbd>BASE    </kbd><box></box>
+<box></box><kbd>~       </kbd><kbd>`       </kbd><kbd>_       </kbd><kbd>'       </kbd><kbd>"       </kbd><box></box><kbd>&#x2800;</kbd><kbd style="background-color: lightblue">CAPS    </kbd><kbd>&#x2800;</kbd><kbd>&#x2800;</kbd><kbd style="background-color: lightblue">BASE    </kbd><box></box>
 <left-space></left-space><kbd>-       </kbd><kbd>+       </kbd><kbd>&#x2800;</kbd><kbd style="background-color: yellow">HOLD</kbd>
 
 ## Game Mode
@@ -62,6 +62,7 @@ left-space{
 <kbd>CTRL    </kbd><kbd>Z       </kbd><kbd>X       </kbd><kbd>C       </kbd><kbd>V       </kbd><kbd>B       </kbd><box></box><kbd>N       </kbd><kbd>M       </kbd><kbd>,       </kbd><kbd>.       </kbd><kbd>/       </kbd><kbd>CTRL    </kbd>
 <left-space style="width: 168px;"></left-space><kbd>ALT</kbd><kbd>GUI</kbd><kbd>SPACE</kbd><kbd>&#x23CE;</kbd><kbd style="background-color: yellow">HOLD</kbd><kbd>ALT</kbd>
 
-## Key
+## Keys
 <kbd style="background-color: yellow">&#x2800;</kbd> - Hold to activate layer
+<kbd style="background-color: lightblue">&#x2800;</kbd> - Switch to layer
 <kbd style="background-color: pink">&#x2800;</kbd> - To be update
