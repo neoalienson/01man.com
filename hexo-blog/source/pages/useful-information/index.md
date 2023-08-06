@@ -41,6 +41,7 @@ This page contains useful information to myself. It also serve as a testing page
 {% codeblock %}export JAVA_HOME=`/usr/libexec/java_home -v 1.8`{% endcodeblock %}
 
 ### Git
+* Undo (Not pushed) ```git reset --soft HEAD~```
 * Deleting a remote branch ```git push [remote] --delete [branch]``` e.g., ```git push origin --delete feature/branch```
 * Sync remote branch and delete remote non-existing local copy ```git fetch --prune```
 * List the commit different between branches ```git rev-list [branch]...[another branch]```
@@ -69,6 +70,7 @@ This page contains useful information to myself. It also serve as a testing page
 * [CodinGame](https://www.codingame.com)
 * [Learn Git Branching](https://learngitbranching.js.org/)
 * [Learn Kubernetes using Interactive Browser-Based Scenarios](https://www.katacoda.com/courses/kubernetes)
+* [(ISC)2 International Information Systems Security Certification Consortium](https://www.isc2.org/)
 * [UN Climate Change Learning](https://unccelearn.org/)
 
 ## Tech
