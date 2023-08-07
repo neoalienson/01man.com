@@ -60,23 +60,23 @@ This page contains useful information to myself. It also serve as a testing page
 Only those that are frequently used and easily forgotten are listed.
 | | |
 | --- | --- |
-| Move Window to another monitor | <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>←</kbd> / <kbd>→</kbd> |
-| Switch to another desktop | <kbd>Windows</kbd> + <kbd>⌃ Control</kbd> + <kbd>←</kbd> / <kbd>→</kbd> |
-| Task View | <kbd>Windows</kbd> + <kbd>Tab</kbd> |
-| Open Action Center | <kbd>Windows</kbd> + <kbd>A</kbd> |
-| Display/Hide Desktop | <kbd>Windows</kbd> + <kbd>D</kbd> |
-| Open File Explorer | <kbd>Windows</kbd> + <kbd>E</kbd> |
-| Quick Link Menu (System tools such as Event Viewer) | <kbd>Windows</kbd> + <kbd>X</kbd> |
-| Lock | <kbd>Windows</kbd> + <kbd>L</kbd> |
+| Move Window to another monitor | <kbd>&#x229E; Windows</kbd> + <kbd>&#x21E7; Shift</kbd> + <kbd>←</kbd> / <kbd>→</kbd> |
+| Switch to another desktop | <kbd>&#x229E; Windows</kbd> + <kbd>⌃ Control</kbd> + <kbd>←</kbd> / <kbd>→</kbd> |
+| Task View | <kbd>&#x229E; Windows</kbd> + <kbd>Tab</kbd> |
+| Open Action Center | <kbd>&#x229E; Windows</kbd> + <kbd>A</kbd> |
+| Display/Hide Desktop | <kbd>&#x229E; Windows</kbd> + <kbd>D</kbd> |
+| Open File Explorer | <kbd>&#x229E; Windows</kbd> + <kbd>E</kbd> |
+| Quick Link Menu (System tools such as Event Viewer) | <kbd>&#x229E; Windows</kbd> + <kbd>X</kbd> |
+| Lock | <kbd>&#x229E; Windows</kbd> + <kbd>L</kbd> |
 
 ### Editing
 | | |
 | --- | --- |
-| Switch Voice Typing | <kbd>Windows</kbd> + <kbd>H</kbd> |
-| Open Clipboard History | <kbd>Windows</kbd> + <kbd>⌃ Control</kbd> + <kbd>V</kbd> |
-| Paste as plain text[^1] | <kbd>Windows</kbd> + <kbd>V</kbd>[^2] |
-| Capture screen and then OCR to clipboard[^1] | <kbd>Windows</kbd> + <kbd>T</kbd>[^2] |
-| Emoji | <kbd>Windows</kbd> + <kbd>.</kbd>[^2] |
+| Switch Voice Typing | <kbd>&#x229E; Windows</kbd> + <kbd>H</kbd> |
+| Open Clipboard History | <kbd>&#x229E; Windows</kbd> + <kbd>⌃ Control</kbd> + <kbd>V</kbd> |
+| Paste as plain text[^1] | <kbd>&#x229E; Windows</kbd> + <kbd>V</kbd>[^2] |
+| Capture screen and then OCR to clipboard[^1] | <kbd>&#x229E; Windows</kbd> + <kbd>T</kbd>[^2] |
+| Emoji | <kbd>&#x229E; Windows</kbd> + <kbd>.</kbd>[^2] |
 
 [^1]:Requires PowerToys
 [^2]:Customized shortcut
@@ -99,9 +99,11 @@ Only those that are frequently used and easily forgotten are listed.
 ### Debug
 | | |
 | --- | --- |
-| Go to Line... | <kbd>⌃ Control</kbd> + <kbd>G</kbd> |
-| Go to File... | <kbd>⌃ Control</kbd> + <kbd>P</kbd> |
-| Go to next error or warning | <kbd>F8</kbd> |
+| Toggle breakpoin | <kbd>F9</kbd> |
+| Start/Continue | <kbd>F5</kbd> |
+| Step over | <kbd>F10</kbd> |
+| Step into | <kbd>F11</kbd> |
+| Step out | <kbd>&#x21E7; Shift</kbd> + <kbd>F11</kbd> |
 
 ## Learning
 
