@@ -82,7 +82,7 @@ Only those that are frequently used and easily forgotten are listed.
 [^2]:Customized shortcut
 
 ## Visual Studio Code shortcuts
-Only those that are frequently used and easily forgotten are listed.
+Only those that are frequently used and easily forgotten are listed. Refernce from https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 
 ### Basic
 | | |
