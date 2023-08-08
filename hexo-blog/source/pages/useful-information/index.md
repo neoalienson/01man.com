@@ -88,6 +88,9 @@ Only those that are frequently used and easily forgotten are listed.
 | | |
 | --- | --- |
 | User Settings | <kbd>⌃ Control</kbd> + <kbd>,</kbd> |
+| Select all occurences of Find match |  <kbd>Alt</kbd> + <kbd>Enter</kbd> |
+| Quick Fix |  <kbd>⌃ Control<</kbd> + <kbd>.</kbd> |
+| Ctrl+K Ctrl+X |  <kbd>⌃ Control<</kbd> + <kbd>K</kbd> <kbd>⌃ Control<</kbd> + <kbd>X</kbd> |
 
 ### Navigation
 | | |
@@ -95,6 +98,18 @@ Only those that are frequently used and easily forgotten are listed.
 | Go to Line... | <kbd>⌃ Control</kbd> + <kbd>G</kbd> |
 | Go to File... | <kbd>⌃ Control</kbd> + <kbd>P</kbd> |
 | Go to next error or warning | <kbd>F8</kbd> |
+| Focus into 1st, 2nd or 3rd... editor group |  <kbd>⌃ Control</kbd> + <kbd>1</kbd>/<kbd>2</kbd>/<kbd>3</kbd>... |
+| Spit editor |  <kbd>⌃ Control</kbd> + <kbd>\</kbd> |
+| Show integrated termina | <kbd>⌃ Control</kbd> + <kbd>`</kbd> |
+| Create new terminal | <kbd>⌃ Control</kbd> + <kbd>&#x21E7; Shift</kbd> + <kbd>`</kbd> |
+| Show Explorer / Toggle focus | <kbd>⌃ Control</kbd> + <kbd>&#x21E7; Shift</kbd> + <kbd>E</kbd> |
+| Show Search | <kbd>⌃ Control</kbd> + <kbd>&#x21E7; Shift</kbd> + <kbd>S</kbd> |
+| Show Source Control | <kbd>⌃ Control</kbd> + <kbd>&#x21E7; Shift</kbd> + <kbd>G</kbd> |
+| Show Debug | <kbd>⌃ Control</kbd> + <kbd>&#x21E7; Shift</kbd> + <kbd>D</kbd> |
+| Show Extension | <kbd>⌃ Control</kbd> + <kbd>&#x21E7; Shift</kbd> + <kbd>X</kbd> |
+| Replace in files | <kbd>⌃ Control</kbd> + <kbd>&#x21E7; Shift</kbd> + <kbd>H</kbd> |
+| Show Output panel | <kbd>⌃ Control</kbd> + <kbd>&#x21E7; Shift</kbd> + <kbd>U</kbd> |
+| Open Markdown preview to the side | <kbd>⌃ Control</kbd> + <kbd>K</kbd> <kbd>V</kbd> |
 
 ### Debug
 | | |
