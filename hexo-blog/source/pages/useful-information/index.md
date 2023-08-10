@@ -49,9 +49,16 @@ This page contains useful information to myself. It also serve as a testing page
 * Show the number of ahead of behind between branches ```git rev-list --left-right count [branch]...[another branch]```
 * Update submodules with latest commit ```git submodule update --remote```
 
-### Windows
+## Windows
+
+### Remove XBox
 * Remove XBox with Powershell ```Get-ProvisionedAppxPackage -Online | Where-Object { $_.PackageName -match "xbox" } | ForEach-Object { Remove-ProvisionedAppxPackage -Online -AllUsers -PackageName $_.PackageName }```
 * Check if any Xbox application is left ```dism /Online /Get-ProvisionedAppxPackages | Select-String PackageName | Select-String xbox```
+
+### Windows shortcuts
+* Move Window to another monitor <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>←</kbd> / <kbd>→</kbd>
+* Switch to another desktop <kbd>Windows</kbd> + <kbd>⌃ Control</kbd> + <kbd>←</kbd> / <kbd>→</kbd>
+* Task View <kbd>Windows</kbd> + <kbd>Tab</kbd>
 
 ## Learning
 
