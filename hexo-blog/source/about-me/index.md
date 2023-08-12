@@ -105,11 +105,15 @@ Email: neo@01man.com
 
 <img src=alibaba_cloud_certified_cloud_networking_professional.webp alt="Certified Cloud Networking Professional" width="150" />
 
+<img src=alibaba_cloud_certified_alibaba_cloud_security_associate.png alt="Certified Cloud Security Associate" width="150" />
+
 <img src=alibaba_cloud_certified_alibaba_big_data_associate.png alt="Certified Big Data Associate" width="150" />
 
 <img src=alibaba_cloud_native_associate.png alt="Certified Cloud Native Associate" width="150" />
 
 <img src=alibaba_cloud_computing_associate.png alt="Certified Cloud Computing Associate" width="150" />
+
+<img src=alibaba_cloud_certified_alibaba_system_operator_associate.png alt="Certified System Operator Associate" width="150" />
 
 ### IBM
 
