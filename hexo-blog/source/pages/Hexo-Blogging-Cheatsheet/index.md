@@ -36,9 +36,9 @@ and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-she
 * `++Inserted++` ++Inserted++ (disabled)
 * Footnote ```[^1]``` for the mark, ```[^1]:``` for the note
 * Use {% raw %}{% raw %}{% endraw %}{% endraw %} if the markdown cause you trouble on {% raw %}{{}} or {%%}{% endraw %}
-* {% kbd Control %} {% raw %}{% kbd Control %}{% endraw %} (remove space)
-* {% kbd Command %} {% raw %}{% kbd Command %}{% endraw %}
-* {% kbd Shift %} {% raw %}{% kbd Shift %}{% endraw %}
+* <kbd>Control</kbd> {% raw %}{% kbd Control %}{% endraw %} (remove space)
+* <kbd>Command</kbd> {% raw %}{% kbd Command %}{% endraw %}
+* <kbd>Shift</kbd> {% raw %}{% kbd Shift %}{% endraw %}
 * Youtube Video {% raw %}{% youtube [youtube id] %}{% endraw %}
 
 | Action | Markdown | Sample |
