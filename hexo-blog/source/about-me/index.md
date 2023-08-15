@@ -113,6 +113,8 @@ Email: neo@01man.com
 
 <img src=alibaba_cloud_computing_associate.png alt="Certified Cloud Computing Associate" width="150" />
 
+<img src=alibaba_cloud_certified_database_associate.png alt="Certified Database Associate" width="150" />
+
 <img src=alibaba_cloud_certified_alibaba_system_operator_associate.png alt="Certified System Operator Associate" width="150" />
 
 ### IBM
