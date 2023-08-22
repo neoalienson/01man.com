@@ -53,13 +53,13 @@ Email: neo@01man.com
 
 ### Alibaba Cloud
 
-![Certified Cloud Computing Professional](alibaba_cloud_certified_cloud_computing_professional-cert.png)
+![ACP Certified Cloud Computing Professional](alibaba_cloud_certified_cloud_computing_professional-cert.png)
 
-![Certified Cloud Networking Professional](alibaba_cloud_certified_cloud_networking_professional-cert.png)
+![ACP Certified Cloud Networking Professional](alibaba_cloud_certified_cloud_networking_professional-cert.png)
 
-![Certified Cloud Native Associate](alibaba_cloud_native_associate-cert.png)
+![ACA Certified Cloud Native Associate](alibaba_cloud_native_associate-cert.png)
 
-![Certified Cloud Computing Associate](alibaba_cloud_computing_associate-cert.png)
+![ACA Certified Cloud Computing Associate](alibaba_cloud_computing_associate-cert.png)
 
 ### Other
 
@@ -101,21 +101,23 @@ Email: neo@01man.com
 
 ### Alibaba Cloud
 
-<img src=alibaba_cloud_certified_cloud_computing_professional.png alt="Certified Cloud Computing Professional" width="150" />
+<img src=alibaba_cloud_certified_cloud_computing_professional.png alt="ACP Certified Cloud Computing Professional" width="150" />
 
-<img src=alibaba_cloud_certified_cloud_networking_professional.webp alt="Certified Cloud Networking Professional" width="150" />
+<img src=alibaba_cloud_certified_cloud_networking_professional.webp alt="ACP Certified Cloud Networking Professional" width="150" />
 
-<img src=alibaba_cloud_certified_alibaba_cloud_security_associate.png alt="Certified Cloud Security Associate" width="150" />
+<img src=alibaba_cloud_certified_alibaba_cloud_security_associate.png alt="ACA Certified Cloud Security Associate" width="150" />
 
-<img src=alibaba_cloud_certified_alibaba_big_data_associate.png alt="Certified Big Data Associate" width="150" />
+<img src=alibaba_cloud_certified_alibaba_big_data_associate.png alt="ACA Certified Big Data Associate" width="150" />
 
-<img src=alibaba_cloud_native_associate.png alt="Certified Cloud Native Associate" width="150" />
+<img src=alibaba_cloud_native_associate.png alt="ACA Certified Cloud Native Associate" width="150" />
 
-<img src=alibaba_cloud_computing_associate.png alt="Certified Cloud Computing Associate" width="150" />
+<img src=alibaba_cloud_computing_associate.png alt="ACA Certified Cloud Computing Associate" width="150" />
 
-<img src=alibaba_cloud_certified_database_associate.png alt="Certified Database Associate" width="150" />
+<img src=alibaba_cloud_certified_business_user_associate.png alt="ACA Certified Business User Associate" width="150" />
 
-<img src=alibaba_cloud_certified_alibaba_system_operator_associate.png alt="Certified System Operator Associate" width="150" />
+<img src=alibaba_cloud_certified_database_associate.png alt="ACA Certified Database Associate" width="150" />
+
+<img src=alibaba_cloud_certified_alibaba_system_operator_associate.png alt="ACA Certified System Operator Associate" width="150" />
 
 ### IBM
 
