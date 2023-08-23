@@ -7,6 +7,32 @@ comments: false
 
 @[toc]
 
+<style>
+.badges {
+  padding: 0;
+  margin: 0;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.badges-item {
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+  list-style: none;
+}
+</style>
 ## Contact
 
 Email: neo@01man.com
@@ -68,28 +94,29 @@ Email: neo@01man.com
 ## Badges
 
 ### Microsoft
+<ul class="badges">
+<li class="badges-item"><img src=microsoft-certified-expert-devops-engineer.png alt="Microsoft Certified DevOps Engineer Expert" width="150" /></li>
 
-<img src=microsoft-certified-expert-devops-engineer.png alt="Microsoft Certified DevOps Engineer Expert" width="150" />
+<li class="badges-item"><img src=microsoft-certified-cybersecurity-architect-expert.png alt="Microsoft Certified: Cybersecurity Architect Expert" width="150" /></li>
 
-<img src=microsoft-certified-cybersecurity-architect-expert.png alt="Microsoft Certified: Cybersecurity Architect Expert" width="150" />
+<li class="badges-item"><img src=microsoft-certified-azure-solutions-architect-expert.png alt="Microsoft Certified: Azure Solutions Architect Expert" width="150" /></li>
 
-<img src=microsoft-certified-azure-solutions-architect-expert.png alt="Microsoft Certified: Azure Solutions Architect Expert" width="150" />
+<li class="badges-item"><img src=microsoft-certified-azure-ai-engineer-associate.png alt="Microsoft Certified: Azure AI Engineer Associate" width="150" /></li>
 
-<img src=microsoft-certified-azure-ai-engineer-associate.png alt="Microsoft Certified: Azure AI Engineer Associate" width="150" />
+<li class="badges-item"><img src=microsoft-certified-azure-data-scientist-associate.png alt="Microsoft Certified: Azure Data Scientist Associate" width="150" /></li>
 
-<img src=microsoft-certified-azure-data-scientist-associate.png alt="Microsoft Certified: Azure Data Scientist Associate" width="150" />
+<li class="badges-item"><img src=microsoft-certified-identity-and-access-administrator-associate.png alt="Microsoft Certified: Identity and Access Administrator Associate" width="150" /></li>
 
-<img src=microsoft-certified-identity-and-access-administrator-associate.png alt="Microsoft Certified: Identity and Access Administrator Associate" width="150" />
+<li class="badges-item"><img src=microsoft-certified-azure-administrator-associate.png alt="Microsoft Certified: Azure Administrator Associate" width="150" /></li>
 
-<img src=microsoft-certified-azure-administrator-associate.png alt="Microsoft Certified: Azure Administrator Associate" width="150" />
+<li class="badges-item"><img src=microsoft-certified-azure-ai-fundamentals.png alt="Microsoft Certified: Azure AI Fundamentals" width="150" /></li>
 
-<img src=microsoft-certified-azure-ai-fundamentals.png alt="Microsoft Certified: Azure AI Fundamentals" width="150" />
+<li class="badges-item"><img src=microsoft-certified-azure-data-fundamentals.png alt="Microsoft Certified: Azure Data Fundamentals" width="150" /></li>
 
-<img src=microsoft-certified-azure-data-fundamentals.png alt="Microsoft Certified: Azure Data Fundamentals" width="150" />
+<li class="badges-item"><img src=microsoft-certified-security-compliance-and-identity-fundamentals.png alt="Microsoft Certified: Security, Compliance, and Identity Fundamentals" width="150" /></li>
 
-<img src=microsoft-certified-security-compliance-and-identity-fundamentals.png alt="Microsoft Certified: Security, Compliance, and Identity Fundamentals" width="150" />
-
-<img src=microsoft-certified-azure-fundamentals.png alt="Microsoft Certified: Azure Fundamentals" width="150" />
+<li class="badges-item"><img src=microsoft-certified-azure-fundamentals.png alt="Microsoft Certified: Azure Fundamentals" width="150" /></li>
+</ul>
 
 ### Google
 
