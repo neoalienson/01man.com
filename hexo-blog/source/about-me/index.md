@@ -140,7 +140,7 @@ Email: neo@01man.com
 
 <img src=alibaba_cloud_computing_associate.png alt="ACA Certified Cloud Computing Associate" width="150" />
 
-<img src=alibaba_cloud_certified_business_user_associate.png alt="ACA Certified Business User Associate" width="150" />
+<img src=alibaba_cloud_certified_business_user_associate.webp alt="ACA Certified Business User Associate" width="150" />
 
 <img src=alibaba_cloud_certified_database_associate.png alt="ACA Certified Database Associate" width="150" />
 
