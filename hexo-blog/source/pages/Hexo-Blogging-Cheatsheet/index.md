@@ -32,12 +32,15 @@ comments: false
 
 and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
+## CSS
+### Keys
+* <kbd>Control</kbd> &lt;kbd&gt;Contro&lt;/kbd&gt;
+* <kbd>Shift &#x21E7;</kbd> &lt;kbd&gt;Shift &amp;#x21E7;&lt;/kbd&gt; - use Unicode characters
+
 ## Markdown (with Markdown plus)
 * `++Inserted++` ++Inserted++ (disabled)
 * Footnote ```[^1]``` for the mark, ```[^1]:``` for the note
 * Use {% raw %}{% raw %}{% endraw %}{% endraw %} if the markdown cause you trouble on {% raw %}{{}} or {%%}{% endraw %}
-* <kbd>Control</kbd> &lt;kbd&gt;Contro&lt;/kbd&gt;
-* <kbd>Shift &#x21E7;</kbd> &lt;kbd&gt;Shift &amp;#x21E7;&lt;/kbd&gt; - use Unicode characters
 * Youtube Video {% raw %}{% youtube [youtube id] %}{% endraw %}
 
 | Action | Markdown | Sample |
