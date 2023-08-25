@@ -8,7 +8,7 @@ comments: false
 @[toc]
 
 <style>
-.badges {
+.badges ul {
   padding: 0;
   margin: 0;
   
@@ -26,12 +26,48 @@ comments: false
   flex-direction: row;
 }
 
-.badges-item {
+.badges > ul > li {
   width: 200px;
   text-align: center;
   margin: 10px;
   list-style: none;
 }
+
+.certs-1 > ul > li {
+  text-align: center;
+  margin: 10px;
+  list-style: none;
+}
+
+.certs > ul {
+  padding: 0;
+  margin: 0;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.certs > ul > li {
+  width: 300px;
+  text-align: center;
+  margin: 10px;
+  list-style: none;
+}
+
+.certs > ul > li > a> img {
+  width: 250px;
+}
+
 </style>
 ## Contact
 
@@ -47,115 +83,116 @@ Email: neo@01man.com
 
 ### Google
 
+<span class="certs-1">
+
 ![Google Cloud Digital Leader](google-cloud-digital-leader-cert.png)
+</span>
 
 ### Microsoft
 
-![Microsoft Certified DevOps Engineer Expert](microsoft-certified-expert-devops-engineer-cert.png)
+<span class="certs-1">
 
-![Microsoft Certified: Cybersecurity Architect Expert](microsoft-certified-cybersecurity-architect-expert-cert.png)
+- ![Microsoft Certified DevOps Engineer Expert](microsoft-certified-expert-devops-engineer-cert.png)
+- ![Microsoft Certified: Cybersecurity Architect Expert](microsoft-certified-cybersecurity-architect-expert-cert.png)
+- ![Microsoft Certified: Azure Solutions Architect Expert](microsoft-certified-azure-solutions-architect-expert-cert.png)
+</span>
 
-![Microsoft Certified: Azure Solutions Architect Expert](microsoft-certified-azure-solutions-architect-expert-cert.png)
+<span class="certs">
 
-![Microsoft Certified: Azure AI Engineer Associate](microsoft-certified-azure-ai-engineer-associate-cert.png)
-
-![Microsoft Certified: Azure Data Scientist Associate](microsoft-certified-azure-data-scientist-associate-cert.png)
-
-![Microsoft Certified: Identity and Access Administrator Associate](microsoft-certified-identity-and-access-administrator-associate-cert.png)
-
-![Microsoft Certified: Azure Administrator Associate](microsoft-certified-azure-administrator-associate-cert.png)
-
-![Microsoft Certified: Azure AI Fundamentals](microsoft-certified-azure-ai-fundamentals-cert.png)
-
-![Microsoft Certified: Azure Data Fundamentals](microsoft-certified-azure-data-fundamentals-cert.png)
-
-![Microsoft Certified: Security, Compliance, and Identity Fundamentals](microsoft-certified-security-compliance-and-identity-fundamentals-cert.png)
-
-![Microsoft Certified: Azure Fundamentals](microsoft-certified-azure-fundamentals-cert.png)
-
+- ![Microsoft Certified: Azure AI Engineer Associate](microsoft-certified-azure-ai-engineer-associate-cert.png)
+- ![Microsoft Certified: Azure Data Scientist Associate](microsoft-certified-azure-data-scientist-associate-cert.png)
+- ![Microsoft Certified: Identity and Access Administrator Associate](microsoft-certified-identity-and-access-administrator-associate-cert.png)
+- ![Microsoft Certified: Azure Administrator Associate](microsoft-certified-azure-administrator-associate-cert.png)
+- ![Microsoft Certified: Azure AI Fundamentals](microsoft-certified-azure-ai-fundamentals-cert.png)
+- ![Microsoft Certified: Azure Data Fundamentals](microsoft-certified-azure-data-fundamentals-cert.png)
+- ![Microsoft Certified: Security, Compliance, and Identity Fundamentals](microsoft-certified-security-compliance-and-identity-fundamentals-cert.png)
+- ![Microsoft Certified: Azure Fundamentals](microsoft-certified-azure-fundamentals-cert.png)
+</span>
 
 ### Microsoft and LinkedIn
-![Career Essentials in Generative AI by Microsoft and LinkedIn](career_essentials_in_generative_ai.png)
+
+<span class="certs-1">
+
+- ![Career Essentials in Generative AI by Microsoft and LinkedIn](career_essentials_in_generative_ai.png)
+</span>
 
 ### Alibaba Cloud
 
-![ACP Certified Cloud Computing Professional](alibaba_cloud_certified_cloud_computing_professional-cert.png)
+<span class="certs-1">
 
-![ACP Certified Cloud Networking Professional](alibaba_cloud_certified_cloud_networking_professional-cert.png)
+- ![ACP Certified Cloud Computing Professional](alibaba_cloud_certified_cloud_computing_professional-cert.png)
+- ![ACP Certified Cloud Networking Professional](alibaba_cloud_certified_cloud_networking_professional-cert.png)
+</span>
 
-![ACA Certified Cloud Native Associate](alibaba_cloud_native_associate-cert.png)
+<span class="certs">
 
-![ACA Certified Cloud Computing Associate](alibaba_cloud_computing_associate-cert.png)
+- ![ACA Certified Cloud Native Associate](alibaba_cloud_native_associate-cert.png)
+- ![ACA Certified Cloud Computing Associate](alibaba_cloud_computing_associate-cert.png)
+</span>
 
 ### Other
 
+- <span class="certs">
+
 ![Profession Scrum Master I from scrum.org](scrum_psm1_201407.png)
+</span>
 
 ## Badges
 
 ### Microsoft
-<ul class="badges">
-<li class="badges-item"><img src=microsoft-certified-expert-devops-engineer.png alt="Microsoft Certified DevOps Engineer Expert" width="150" /></li>
 
-<li class="badges-item"><img src=microsoft-certified-cybersecurity-architect-expert.png alt="Microsoft Certified: Cybersecurity Architect Expert" width="150" /></li>
+<span class="badges">
 
-<li class="badges-item"><img src=microsoft-certified-azure-solutions-architect-expert.png alt="Microsoft Certified: Azure Solutions Architect Expert" width="150" /></li>
-
-<li class="badges-item"><img src=microsoft-certified-azure-ai-engineer-associate.png alt="Microsoft Certified: Azure AI Engineer Associate" width="150" /></li>
-
-<li class="badges-item"><img src=microsoft-certified-azure-data-scientist-associate.png alt="Microsoft Certified: Azure Data Scientist Associate" width="150" /></li>
-
-<li class="badges-item"><img src=microsoft-certified-identity-and-access-administrator-associate.png alt="Microsoft Certified: Identity and Access Administrator Associate" width="150" /></li>
-
-<li class="badges-item"><img src=microsoft-certified-azure-administrator-associate.png alt="Microsoft Certified: Azure Administrator Associate" width="150" /></li>
-
-<li class="badges-item"><img src=microsoft-certified-azure-ai-fundamentals.png alt="Microsoft Certified: Azure AI Fundamentals" width="150" /></li>
-
-<li class="badges-item"><img src=microsoft-certified-azure-data-fundamentals.png alt="Microsoft Certified: Azure Data Fundamentals" width="150" /></li>
-
-<li class="badges-item"><img src=microsoft-certified-security-compliance-and-identity-fundamentals.png alt="Microsoft Certified: Security, Compliance, and Identity Fundamentals" width="150" /></li>
-
-<li class="badges-item"><img src=microsoft-certified-azure-fundamentals.png alt="Microsoft Certified: Azure Fundamentals" width="150" /></li>
-</ul>
+- ![Microsoft Certified DevOps Engineer Expert](microsoft-certified-expert-devops-engineer.png)
+- ![Microsoft Certified: Cybersecurity Architect Expert](microsoft-certified-cybersecurity-architect-expert.png)
+- ![Microsoft Certified: Azure Solutions Architect Expert](microsoft-certified-azure-solutions-architect-expert.png)
+- ![Microsoft Certified: Azure AI Engineer Associate](microsoft-certified-azure-ai-engineer-associate.png)
+- ![Microsoft Certified: Azure Data Scientist Associate](microsoft-certified-azure-data-scientist-associate.png)
+- ![Microsoft Certified: Identity and Access Administrator Associate](microsoft-certified-identity-and-access-administrator-associate.png)
+- ![Microsoft Certified: Azure Administrator Associate](microsoft-certified-azure-administrator-associate.png)
+- ![Microsoft Certified: Azure AI Fundamentals](microsoft-certified-azure-ai-fundamentals.png)
+- ![Microsoft Certified: Azure Data Fundamentals](microsoft-certified-azure-data-fundamentals.png)
+- ![Microsoft Certified: Security, Compliance, and Identity Fundamentals](microsoft-certified-security-compliance-and-identity-fundamentals.png)
+- ![Microsoft Certified: Azure Fundamentals](microsoft-certified-azure-fundamentals.png)
+</span>
 
 ### Google
 
 #### Skillshop
 
-<ul class="badges">
-<li class="badges-item"><img src=skillshop-google-ai-powered-performance-ads.png alt="Skillshop Google AI-Powered Performance Ads Certification" width="150" /></li>
+<span class="badges">
 
-<li class="badges-item"><img src=skillshop-google-analytics-certification.png alt="Skillshop Google Analytics Certification" width="150" /></li>
-</ul>
+- ![Skillshop Google AI-Powered Performance Ads Certification](skillshop-google-ai-powered-performance-ads.png)
+- ![Skillshop Google Analytics Certification](skillshop-google-analytics-certification.png)
+</span>
 
 ### Alibaba Cloud
 
-<ul class="badges">
-<li class="badges-item"><img src=alibaba_cloud_certified_cloud_computing_professional.png alt="ACP Certified Cloud Computing Professional" width="150" /></li>
+<span class="badges">
 
-<li class="badges-item"><img src=alibaba_cloud_certified_cloud_networking_professional.webp alt="ACP Certified Cloud Networking Professional" width="150" /></li>
-
-<li class="badges-item"><img src=alibaba_cloud_certified_alibaba_cloud_security_associate.png alt="ACA Certified Cloud Security Associate" width="150" /></li>
-
-<li class="badges-item"><img src=alibaba_cloud_certified_alibaba_big_data_associate.png alt="ACA Certified Big Data Associate" width="150" /></li>
-
-<li class="badges-item"><img src=alibaba_cloud_native_associate.png alt="ACA Certified Cloud Native Associate" width="150" /></li>
-
-<li class="badges-item"><img src=alibaba_cloud_computing_associate.png alt="ACA Certified Cloud Computing Associate" width="150" /></li>
-
-<li class="badges-item"><img src=alibaba_cloud_certified_business_user_associate.webp alt="ACA Certified Business User Associate" width="150" /></li>
-
-<li class="badges-item"><img src=alibaba_cloud_certified_database_associate.png alt="ACA Certified Database Associate" width="150" /></li>
-
-<li class="badges-item"><img src=alibaba_cloud_certified_alibaba_system_operator_associate.png alt="ACA Certified System Operator Associate" width="150" /></li>
-</ul>
+- ![ACP Certified Cloud Computing Professional](alibaba_cloud_certified_cloud_computing_professional.png)
+- ![ACP Certified Cloud Networking Professional](alibaba_cloud_certified_cloud_networking_professional.webp)
+- ![ACA Certified Cloud Security Associate](alibaba_cloud_certified_alibaba_cloud_security_associate.png)
+- ![ACA Certified Big Data Associate](alibaba_cloud_certified_alibaba_big_data_associate.png)
+- ![ACA Certified Cloud Native Associate](alibaba_cloud_native_associate.png)
+- ![ACA Certified Cloud Computing Associate](alibaba_cloud_computing_associate.png)
+- ![ACA Certified Business User Associate](alibaba_cloud_certified_business_user_associate.webp)
+- ![ACA Certified Database Associate](alibaba_cloud_certified_database_associate.png)
+- ![ACA Certified System Operator Associate](alibaba_cloud_certified_alibaba_system_operator_associate.png)
+</span>
 
 ### IBM
 
-<img src=big-data-foundations.png alt="IBM Big Data Foundations" width="150" />
+<span class="badges">
+
+- ![IBM Big Data Foundations](big-data-foundations.png)
+</span>
 
 ### Other
 
-<img src=forgerock-access-management-product-knowledge.2.png alt="Forgerock Access Management Product Knowledge" width="150" />
+<span class="badges">
+
+- ![Forgerock Access Management Product Knowledge](forgerock-access-management-product-knowledge.2.png)
+</span>
 
 [and more ...](../more-about-me)
