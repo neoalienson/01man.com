@@ -2,10 +2,12 @@ trigger:
  branches:
   include:
   - refs/heads/main
-  paths:
-    include:
-    - hexo-blog/*
-
+ paths:
+  include:
+  - 'hexo-blog/*'
+  exclude:
+  - "**/.gitignore"
+  
 pool:
   name: Default
 
