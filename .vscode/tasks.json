@@ -6,7 +6,7 @@
         {
             "label": "Start Hexo",
             "type": "shell",
-            "command": ".\\hexo.bat",
+            "command": "cd hexo-blog; hexo server",
             "runOptions": { "runOn": "folderOpen" }
         },
         {
