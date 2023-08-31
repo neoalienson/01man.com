@@ -68,7 +68,7 @@ mid{
 <kbd>TAB     </kbd><kbd>Q       </kbd><kbd>W       </kbd><kbd>E       </kbd><kbd>R       </kbd><kbd>T       </kbd><mbox></mbox><kbd>Y       </kbd><kbd>U       </kbd><kbd>O       </kbd><kbd>P       </kbd><kbd>;       </kbd><kbd>\       </kbd>
 <kbd>&#x21E7;</kbd><kbd>A       </kbd><kbd>S       </kbd><kbd>D       </kbd><kbd>F       </kbd><kbd>G       </kbd><mbox></mbox><kbd>H       </kbd><kbd>J       </kbd><kbd>K       </kbd><kbd>L       </kbd><kbd>h       </kbd><kbd>&#x21E7;</kbd>
 <kbd>CTRL    </kbd><kbd>Z       </kbd><kbd>X       </kbd><kbd>C       </kbd><kbd>V       </kbd><kbd>B       </kbd><mbox></mbox><kbd>N       </kbd><kbd>M       </kbd><kbd>,       </kbd><kbd>.       </kbd><kbd>/       </kbd><kbd>CTRL    </kbd>
-<left-space></left-space><kbd>GUI</kbd><kbd>ALT</kbd><kbd>SPACE</kbd><mid></mid><kbd>&#x23CE;</kbd><kbd>ALT</kbd><kbd>&#x2800;</kbd>
+<left-space></left-space><kbd>GUI</kbd><kbd>ALT</kbd><kbd>SPACE</kbd><mid></mid><kbd>&#x23CE;</kbd><kbd>ALT</kbd><kbd style="background-color: lightblue">BASE    </kbd>
 
 ## Keys
 <kbd style="background-color: yellow">&#x2800;</kbd> - Hold to activate layer
