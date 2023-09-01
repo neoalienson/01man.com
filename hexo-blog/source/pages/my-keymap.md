@@ -65,8 +65,8 @@ mid{
 
 ## Game Layer
 <kbd>ESC     </kbd><kbd>1       </kbd><kbd>2       </kbd><kbd>3       </kbd><kbd>4       </kbd><kbd>5       </kbd><mbox></mbox><kbd>6       </kbd><kbd>7       </kbd><kbd>8       </kbd><kbd>9       </kbd><kbd>0       </kbd><kbd>&#x232B;</kbd>
-<kbd>TAB     </kbd><kbd>Q       </kbd><kbd>W       </kbd><kbd>E       </kbd><kbd>R       </kbd><kbd>T       </kbd><mbox></mbox><kbd>Y       </kbd><kbd>U       </kbd><kbd>O       </kbd><kbd>P       </kbd><kbd>;       </kbd><kbd>\       </kbd>
-<kbd>&#x21E7;</kbd><kbd>A       </kbd><kbd>S       </kbd><kbd>D       </kbd><kbd>F       </kbd><kbd>G       </kbd><mbox></mbox><kbd>H       </kbd><kbd>J       </kbd><kbd>K       </kbd><kbd>L       </kbd><kbd>h       </kbd><kbd>&#x21E7;</kbd>
+<kbd>TAB     </kbd><kbd>Q       </kbd><kbd>W       </kbd><kbd>E       </kbd><kbd>R       </kbd><kbd>T       </kbd><mbox></mbox><kbd>Y       </kbd><kbd>U       </kbd><kbd>I       </kbd><kbd>O       </kbd><kbd>P       </kbd><kbd>\       </kbd>
+<kbd>&#x21E7;</kbd><kbd>A       </kbd><kbd>S       </kbd><kbd>D       </kbd><kbd>F       </kbd><kbd>G       </kbd><mbox></mbox><kbd>H       </kbd><kbd>J       </kbd><kbd>K       </kbd><kbd>L       </kbd><kbd>;       </kbd><kbd>&#x21E7;</kbd>
 <kbd>CTRL    </kbd><kbd>Z       </kbd><kbd>X       </kbd><kbd>C       </kbd><kbd>V       </kbd><kbd>B       </kbd><mbox></mbox><kbd>N       </kbd><kbd>M       </kbd><kbd>,       </kbd><kbd>.       </kbd><kbd>/       </kbd><kbd>CTRL    </kbd>
 <left-space></left-space><kbd>GUI</kbd><kbd>ALT</kbd><kbd>SPACE</kbd><mid></mid><kbd>&#x23CE;</kbd><kbd>ALT</kbd><kbd style="background-color: lightblue">BASE    </kbd>
 
