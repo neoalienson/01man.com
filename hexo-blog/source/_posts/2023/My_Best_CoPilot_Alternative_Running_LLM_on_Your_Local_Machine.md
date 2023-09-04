@@ -46,7 +46,7 @@ Input token is the "memory" of the context. Please note the number could be inac
 
 ## Quality
 
-I will not go into detail comparison for now. This is becausa prompt matters more than a model. You can customize system prompts that fits you best and switch between the model like hell from Continue. For example, below poor code could be generated from both Code Llama and GPT4 if you do not have a proper system prompt or even your context has been messed up,
+I will not go into detail comparison for now. This is because there are so many models you can use, and prompt could matter more than a model. You can customize system prompts that fits you best and switch between the model like hell from Continue. For example, below poor code could be generated from both Code Llama and GPT4 if you do not have a proper system prompt or even your context has been messed up,
 
 > write a python script to generate six unique numbers from 1 to 49 
 
