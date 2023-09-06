@@ -32,19 +32,18 @@ There are many other CoPilot-like service provider that is free. Quality from fr
 
 | Feature | Local | CoPilot (or anyother subscription based service) |
 | --- | --- | --- |
-| Cost of Ownership | USD 200 for a second hand nvidia 3060 12GB | Nil |
-| Price | Free. It costs me around 1kWh a month, which is negligible | Subscription-based |
-| Model for you to choose | Many | Depends on the provider |
-| Input token | 100k (Code Llama) | 1500 (Copilot) |
+| Cost of Ownership | USD 200 for a second hand nvidia 3060 12GB. Excluding the PC deskop that I already have | Nil |
+| Price | Free. It costs me around 1kWh a month, which is negligible | Subscription-based, starting from USD 10 a month|
+| ROI | 20 months | - |
+| LLM for you to choose | Many. There are programming language specific model. | Depends on the provider |
+| Input token limit | 100k (Code Llama) | 1500 (Copilot) |
 | Integration with Visual Studio Code | Yes | Yes |
 | Setup | Quite easy with ollama | Easy |
-| Speed | Faster | Slower  |
+| Speed | Faster | Slower |
 | Privacy | Your data stays on your local machine | Data is sent to third party for processing |
 | Copyright | Depends on the model | Depends on service provider |
 
-Input token is the "memory" of the context. Please note the number could be inaccurate as technology is advancing quick.
-
-## Quality
+Input token is the "memory" of the context. GPT4's input token is 8k thats why you feel the code generated is better than CoPilot when your requirements is complex. Please note the number could be inaccurate as technology is advancing quick.
 
 I will not go into detail comparison for now. This is because there are so many models you can use, and prompt could matter more than a model. You can customize system prompts that fits you best and switch between the model like hell from Continue. For example, below poor code could be generated from both Code Llama and GPT4 if you do not have a proper system prompt or even your context has been messed up,
 
