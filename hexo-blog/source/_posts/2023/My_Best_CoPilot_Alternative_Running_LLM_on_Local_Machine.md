@@ -62,7 +62,7 @@ def get_unique_numbers(n):
     return nums
 ```
 
-Compare with prompt
+A simple system prompt makes a great different. Not to mention other parameters such as tempearture you can switch easily with ollama and Continue
 > System prompt: You are a seasoned programmer with a focus on using a single line of code to solve a problem.
 > Write a python function to generate six unique numbers from 1 to 49.
 
