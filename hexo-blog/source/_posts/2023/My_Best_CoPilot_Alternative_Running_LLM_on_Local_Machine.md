@@ -32,7 +32,7 @@ There are many other CoPilot-like service provider that is free. Quality from fr
 
 | Feature | Local | CoPilot (or anyother subscription based service) |
 | --- | --- | --- |
-| Cost of Ownership | USD 200 for a second hand nVidia 3060 12GB. Excluding the PC deskop that I already have | Nil |
+| Cost of Ownership | USD 200 for a second hand nVidia 3060 12GB. Excluding the PC deskop that I already have | - |
 | Price | Free. Electricity costs me around 1kWh a month, which is negligible | Subscription-based, starting from USD 10 a month|
 | ROI | 20 months | - |
 | LLM for you to choose | Many. There are programming language specific model. | Depends on the provider |
