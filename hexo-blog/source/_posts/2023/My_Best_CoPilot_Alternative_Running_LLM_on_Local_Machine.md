@@ -65,7 +65,7 @@ A simple system prompt makes a great different. Not to mention other parameters 
 
 ```
 def generate_unique_numbers(n):
-    return list(random.sample(range(1, n+1), k=6))
+    return random.sample(range(1, n), k=6)
 ```
 
 ## Conclusion
