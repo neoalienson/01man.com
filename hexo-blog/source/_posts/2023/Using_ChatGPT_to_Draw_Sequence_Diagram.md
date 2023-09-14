@@ -2,6 +2,7 @@
 title: Using ChatGPT to Draw Sequence Diagram
 date: 2023-05-10 22:12:00
 tags:
+  - AI
 categories:
   - Development
 comments: false

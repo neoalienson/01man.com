@@ -2,6 +2,7 @@
 title: Handling invalid index on empty tuple from list in Terraform
 date: 2023-04-12 05:39:41
 tags:
+  - Terraform
 categories:
   - Development
 comments: false

@@ -2,6 +2,7 @@
 title: New Unlocked Job Roles for AI - Prompt Engineers!
 date: 2023-04-09 20:54:43
 tags:
+  - AI
 categories:
   - Tech
 comments: false

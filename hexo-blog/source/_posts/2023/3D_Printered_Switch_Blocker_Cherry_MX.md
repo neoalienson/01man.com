@@ -2,8 +2,9 @@
 title: 3D Printered Switch Blocker Cherry MX
 date: 2023-05-01 14:49:00
 tags:
+  - 3D printing
 categories:
-  - Development
+  - Misc
 comments: false
 ---
 

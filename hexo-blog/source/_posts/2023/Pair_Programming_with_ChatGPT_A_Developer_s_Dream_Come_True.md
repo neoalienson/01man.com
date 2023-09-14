@@ -3,6 +3,7 @@ title: Pair Programming with ChatGPT - A Developer's Dream Come True
 date: 2023-03-30 13:35:46
 tags:
   - Terraform
+  - AI
 categories:
   - Development
 comments: false

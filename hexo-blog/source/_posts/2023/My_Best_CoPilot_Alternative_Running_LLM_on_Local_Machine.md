@@ -2,6 +2,7 @@
 title: My Best CoPilot Alternative - Running LLM on Local Desktop
 date: 2023-09-03 20:41:00
 tags:
+  - AI
 categories:
   - Development
 comments: false
