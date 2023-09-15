@@ -23,6 +23,21 @@ If you do not have enough video RAM, it falls back to system RAM and CPU.
 
 There are many model for you to choose (https://ollama.ai/library) but you should first try Code Llama. Same as the github guide you can pull the Code Llama with `ollama pull codellama`. However, there are license agreemenet to accept (https://ai.meta.com/resources/models-and-libraries/llama-downloads/). Once you have request, accept and approve, you can start using it. If you do not there are many others library you can try.
 
+---
+
+:question: Why I choose 12GB Video RAM on display card instead of 8GB, 16GB, 24GB?
+8GB video cards are more common and cheaper but with additional 4GB of RAM you can run a large model in next tier. LLMs usually build in 3 tier with different model parameter size, each tier use certain amount of video RAM approxamiely. Below shows 12GB fits both 7B and 13B. RAM more than 12GB is a waste. Unless you spend time on quantizing model for next tier and accept the model runs much slower after quantization.
+
+| Model | Size in storage | Typical memory usage | VRAM 8GB | VRAM 12GB | VRAM 2 X 24GB |
+| --- | --: | --: | :-: | :-: | :-: |
+| 7B | 4GB | 7GB | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 13B | 8GB | 11GB | :x: | :white_check_mark: | :white_check_mark: |
+| 70B | 40GB | 35GB | :x: | :x: | :white_check_mark: |
+
+The largest video RAM size is 24GB so you will need to 2 video card.
+
+---
+
 ## How to Set Up Code Llama with Visual Studio Code
 
 Setting up Code Llama with Visual Studio Code is easy and straightforward. Search and install an Visual Studio Code extension "Continue". This extension allows you use LLM from the service provider and local LLM service like ollama. "Continue" starts an interactively tutorial and you should start to use it happily.
