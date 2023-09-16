@@ -34,7 +34,7 @@ There are many model for you to choose (https://ollama.ai/library) but you shoul
 | 13B | 8GB | 11GB | :x: | :white_check_mark: | :white_check_mark: |
 | 70B | 40GB | 35GB | :x: | :x: | :white_check_mark: |
 
-The largest video RAM size is 24GB so you will need to 2 video card.
+The largest video RAM size for consumer grade display card is 24GB so you will need to 2 video card.
 
 ---
 
