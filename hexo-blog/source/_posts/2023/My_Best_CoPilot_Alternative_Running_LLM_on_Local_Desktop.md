@@ -1,5 +1,5 @@
 ---
-title: My Best CoPilot Alternative - Running LLM on Local Machine
+title: My Best CoPilot Alternative - Running LLM on Local Desktop
 date: 2023-09-03 20:41:00
 tags:
   - AI
@@ -9,7 +9,7 @@ comments: false
 prompt: You are a technology blog writer focus on software development. Write a blog with title "My Best CoPilot Alternative - Code Llama Local" . The blog introduce my code llama setup on my local desktop with a nVidia display card 3060 12GB ram. With ollama I can set it run on wsl2 and integrate with visual studio code with extension "Continue". this solution is free. and can be faster than service like copilot. use a table to describe pros and cons between code llama running locally and copilot. you are a technology blog writer focus on software development. Write a blog with title "My Best CoPilot Alternative - Code Llama Local" .  you are writing a paragraph about ollama, which uses a Dockerfile like configuration and Docker layer to manage LLM. ollama helps a lot to setup and run Code Llama on Windows WSL 2.
 ---
 
-I'm always on the lookout for new and innovative tools to help me improve my coding skills and increase my productivity. Recently, I stumbled upon Code Llama, a free, open-source large lauguage model (LLM) developed by Meta that allows you to set up on your low-cost gaming desktop. In this blog post, I'll be sharing my experience with Code Llama and how it can serve as a great alternative to GitHub CoPilot.
+As a software development blogger, I'm always on the lookout for new and innovative tools to help me improve my coding skills and increase my productivity. Recently, I stumbled upon Code Llama, a free, open-source large lauguage model (LLM) developed by Meta that allows you to set up on your low-cost gaming desktop. In this blog post, I'll be sharing my experience with Code Llama and how it can serve as a great alternative to CoPilot.
 
 ## Setup Code Llama with ollama
 
@@ -21,7 +21,7 @@ ollama (https://ollama.ai/), which uses a Dockerfile-like configuration file. It
 
 If you do not have enough video RAM, it falls back to system RAM and CPU.
 
-There is many model for you to choose (https://ollama.ai/library) but you should first try Code Llama. You can pull the Code Llama with `ollama pull codellama` like docker image. However, there are license agreemenet to accept (https://ai.meta.com/resources/models-and-libraries/llama-downloads/). Once you have request, accept and approve, you can start using it. If you do not there are many others library you can try.
+There are many model for you to choose (https://ollama.ai/library) but you should first try Code Llama. Same as the github guide you can pull the Code Llama with `ollama pull codellama`. However, there are license agreemenet to accept (https://ai.meta.com/resources/models-and-libraries/llama-downloads/). Once you have request, accept and approve, you can start using it. If you do not there are many others library you can try.
 
 ---
 
