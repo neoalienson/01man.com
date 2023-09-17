@@ -84,12 +84,12 @@ Code block
 ~~~
 
 ## Github Card
-e.g., {% githubCard user:neoalienson repo:pachinko %}
-{% raw %}
+{% codeblock %}
+{% raw %}{% githubCard user:neoalienson repo:pachinko %}{% endraw %}
+{% endcodeblock %}
 {% githubCard user:neoalienson repo:pachinko %}
-{% endraw %}
 
-## Flowchart
+## Mermaid Flowchart
 
 {% codeblock %}
 {% raw %}
@@ -104,8 +104,7 @@ flowchart TD
 {% endraw %}
 {% endcodeblock %}
 
-{% mermaid %}
-flowchart TD
+{% mermaid %}flowchart TD
     A[Christmas] -->|Get money| B(Go shopping)
     B --> C{Let me think}
     C -->|One| D[Laptop]
