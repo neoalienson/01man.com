@@ -76,34 +76,45 @@ and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-she
 | ------ | -------- | 
 | Horizontal rule | `---` |
 
-| Action | Markdown | 
-| ------ | -------- | 
-| Code block | `~~~`|
+### Code block
+
+Result:
 ~~~
 Code block 
 ~~~
 
+Code:
+{% codeblock %}
+{% raw %}~~~
+Code block 
+~~~{% endraw %}
+{% endcodeblock %}
+
 ## Github Card
+
+Code:
 {% codeblock %}
 {% raw %}{% githubCard user:neoalienson repo:pachinko %}{% endraw %}
 {% endcodeblock %}
+
+Result:
 {% githubCard user:neoalienson repo:pachinko %}
 
 ## Mermaid Flowchart
 
+Code:
 {% codeblock %}
-{% raw %}
-{% mermaid %}
+{% raw %}{% mermaid %}
 flowchart TD
     A[Christmas] -->|Get money| B(Go shopping)
     B --> C{Let me think}
     C -->|One| D[Laptop]
     C -->|Two| E[iPhone]
     C -->|Three| F[fa:fa-car Car]
-{% endmermaid %}
-{% endraw %}
+{% endmermaid %}{% endraw %}
 {% endcodeblock %}
 
+Result:
 {% mermaid %}flowchart TD
     A[Christmas] -->|Get money| B(Go shopping)
     B --> C{Let me think}
@@ -114,11 +125,14 @@ flowchart TD
 
 ## Barchart
 Barchart from [easy charts](https://www.npmjs.com/package/hexo-tag-easy-charts)
+
+Result:
 {% barchart 'Sample Chart' %}
 Apple | Orange | Banana | Lemon
 50 | 740 | 218 | 193
 {% endbarchart %}
 
+Code:
 {% codeblock %}
 {% raw %}{% barchart 'Sample Chart' %}
 Apple | Orange | Banana | Lemon
