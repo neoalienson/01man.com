@@ -55,26 +55,43 @@ and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-she
 | Link | `[link text](https://example.com)` | [link text](https://example.com) |
 | Image | `![alt text](https://example.com/image.jpg)` | ![alt text](https://example.com/image.jpg) |
 
-| Action | Markdown | 
-| ------ | -------- |
-| Blockquote | `> blockquote` | 
-> blockquote
+### Blockquote
+Code:
+{% codeblock %}
+{% raw %}> Some quote text{% endraw %}
+{% endcodeblock %}
 
-| Action | Markdown | 
-| ------ | -------- |
-| Ordered list | `1. item 1` |
+Result:
+> Some quote text
+
+### Ordered list 
+Code:
+{% codeblock %}
+{% raw %}1. item 1
+2. item 2{% endraw %}
+{% endcodeblock %}
+
+Result:
 1. item 1
 2. item 2
 
-| Action | Markdown | 
-| ------ | -------- | 
-| Unordered list | `- item 1` |
+### Unordered list 
+Code:
+{% codeblock %}
+{% raw %}- item 1
+- item 2{% endraw %}
+{% endcodeblock %}
+
+Result:
 - item 1
 - item 2
 
-| Action | Markdown | 
-| ------ | -------- | 
-| Horizontal rule | `---` |
+### Horizontal rule
+Code:
+`---`
+
+Result:
+---
 
 ### Code block
 
