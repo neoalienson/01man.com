@@ -55,6 +55,23 @@ and more from [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-she
 | Link | `[link text](https://example.com)` | [link text](https://example.com) |
 | Image | `![alt text](https://example.com/image.jpg)` | ![alt text](https://example.com/image.jpg) |
 
+### Table Column Alignment
+Code:
+{% codeblock %}
+{% raw %}| Default | Left | Center | Right |
+| --- | :-- | :-: | --: |
+| 1 | 1 | 1 | 1 |
+| 22 | 22 | 22 | 22 |
+| 333 | 333 | 333 | 333 |{% endraw %}
+{% endcodeblock %}
+
+Result:
+| Default | Left | Center | Right |
+| --- | :-- | :-: | --: |
+| 1 | 1 | 1 | 1 |
+| 22 | 22 | 22 | 22 |
+| 333 | 333 | 333 | 333 |
+
 ### Blockquote
 Code:
 {% codeblock %}
