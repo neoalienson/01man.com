@@ -9,6 +9,8 @@ comments: false
 prompt: You are a technology blog writer focus on software development. Write a blog with title "My Best CoPilot Alternative - Code Llama Local" . The blog introduce my code llama setup on my local desktop with a nVidia display card 3060 12GB ram. With ollama I can set it run on wsl2 and integrate with visual studio code with extension "Continue". this solution is free. and can be faster than service like copilot. use a table to describe pros and cons between code llama running locally and copilot. you are a technology blog writer focus on software development. Write a blog with title "My Best CoPilot Alternative - Code Llama Local" .  you are writing a paragraph about ollama, which uses a Dockerfile like configuration and Docker layer to manage LLM. ollama helps a lot to setup and run Code Llama on Windows WSL 2.
 ---
 
+![](hero.png)
+
 I'm always on the lookout for new and innovative tools to help me improve my coding skills and increase my productivity. Recently, I stumbled upon Code Llama, a free, open-source large lauguage model (LLM) developed by Meta that allows you to set up on your low-cost gaming desktop. In this blog post, I'll be sharing my experience with Code Llama and how it can serve as a great alternative to GitHub CoPilot.
 
 ## Setup Code Llama with ollama
