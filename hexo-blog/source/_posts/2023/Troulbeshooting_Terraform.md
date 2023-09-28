@@ -10,12 +10,14 @@ prompt: You are a technology blog writer focus on software development. Write a 
 
 ---
 
+![Trace log with dependency analysis](hero.png)
+
 Terraform is a great tool for managing infrastructure as code, but sometimes it can be tricky to debug when things go wrong. In this blog post, I'll share  tips on how to troubleshoot Terraform issues.
 
 ## Enabling Debug Log
-The `TF_LOG` environment variable allows you to set the log level for Terraform, which can be useful for getting more details about what Terraform is doing behind the scenes. You can set it to one of these values: `TRACE`, `DEBUG`, `INFO`, `WARN`, or `ERROR`. The default is `INFO`, which only shows high-level messages. To get more verbose output, you can set it to `DEBUG` or `TRACE`. For example, you can run this command before running Terraform:
+The `TF_LOG` environment variable allows you to set the log level for Terraform, which can be useful for getting more details about what Terraform is doing behind the scenes. You can set it to one of these values: `TRACE`, `DEBUG`, `INFO`, `WARN`, or `ERROR`. The default is `INFO`, which only shows high-level messages. To get more verbose output, you can set it to `DEBUG`. `TRACE` has details from `DEBUG` but has dependency analysis details that is not needed for most debugging. For example, you can run this command before running Terraform:
 
-`export TF_LOG=DEBUG`
+`export TF_LOG=DEBUG` and then `terraform plan`
 
 or run it in single line
 
