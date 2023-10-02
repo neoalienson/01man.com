@@ -45,7 +45,7 @@ When `-parallelism` is not specify, default value is 10. The resources are creat
 {% mermaid %}
   graph TD
   A[Terraform Operation] --> C[Resource 1 Modification]
-  C --> D
   A --> D[Resource 2 Modification]
   D --> E[Terraform Execution Completed]
+  C --> E
 {% endmermaid %}
