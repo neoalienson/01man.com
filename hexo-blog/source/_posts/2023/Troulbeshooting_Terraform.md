@@ -10,7 +10,7 @@ prompt: You are a technology blog writer focus on software development. Write a 
 
 ---
 
-![Trace log with dependency analysis](hero.png)
+![Trace log with dependency analysis](log.png)
 
 Terraform is a great tool for managing infrastructure as code, but sometimes it can be tricky to debug when things go wrong. In this blog post, I'll share  tips on how to troubleshoot Terraform issues.
 
@@ -39,7 +39,6 @@ graph TD
   C --> D[Resource 2 Modification]
   D --> E[Terraform Execution Completed]
 {% endmermaid %}
-This chart shows the Terraform operation with parallelism set to 1. 
 
 When `-parallelism` is not specify, default value is 10. The resources are created/modified/destroyed in parallel, allowing for faster execution. However, this can also make it more difficult to debug and troubleshoot issues, as multiple resources are executed simultaneously. eg, `terraform apply`:
 {% mermaid %}
