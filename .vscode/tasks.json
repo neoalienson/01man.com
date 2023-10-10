@@ -6,7 +6,7 @@
         {
             "label": "Start Hexo",
             "type": "shell",
-            "command": "cd hexo-blog; hexo server",
+            "command": "cd hexo-blog; hexo server --draft",
             "runOptions": { "runOn": "folderOpen" }
         },
         {

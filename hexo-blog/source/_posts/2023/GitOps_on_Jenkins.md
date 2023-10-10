@@ -10,7 +10,7 @@ categories:
 comments: false
 ---
 
-![](hero.png)
+s
 
 If you're a developer who loves automation, you might have heard of GitOps. GitOps is a way of managing your infrastructure and applications using git as the single source of truth. GitOps lets you define your desired state in code, and then use tools like Terraform to apply that state to your environments. Gitops also enables continuous delivery, as any change in your git repository triggers a pipeline that deploys the new version of your code.
 
@@ -22,7 +22,7 @@ Seeder script is a script to create and maintain your pipelines on Jenkins. It i
 
 Here is an example of a seeder script that creates pipelines in Jenkins. The script uses the Job DSL plugin to define the pipeline jobs in a declarative way. The script loops through a list of repositories and creates a pipeline job for each one. The details of the steps of each pipeline are referenced from the Jenkinsfile in their own repository.
 
-```
+~~~
 / Define the list of repositories
 def repos = ['repo1', 'repo2', 'repo3']
 
@@ -49,7 +49,7 @@ repos.each { repo ->
     }
   }
 }
-```
+~~~
 
 You may not feel the script is useful by having 3 pipelines created. Consider you need to create pipeline for different environments, iteration simplier the pipeline creation,
 ~~~
