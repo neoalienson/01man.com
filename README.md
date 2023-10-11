@@ -1,5 +1,8 @@
 [![Deploy static content to Pages](https://github.com/neoalienson/01man.com/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/neoalienson/01man.com/actions/workflows/pages/pages-build-deployment)
 
+# Blog of 01man.com
+A personal blog
+
 ## Use with Docker
 docker build . -t hexo
 docker create --name=hexo -v /home/neo/Projects/01man.com/hexo-blog:/app -p 4000:4000 -p 3001:3001 hexo
@@ -20,7 +23,7 @@ docker create --name=hexo -v /home/neo/Projects/01man.com/hexo-blog:/app -p 4000
     cd ./hexo-blog
     hexo server # start the local webserver to preview
 
-# Theme
+## Theme
 git clone https://github.com/viosey/hexo-theme-material.git material
 
 ## Setup GitHub Actions Runner
