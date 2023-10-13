@@ -16,11 +16,11 @@ prompt: write a blog post about everything as code, which includes infrastructur
 
 # Everything as Code: A Trend or a Necessity?
 
-In the era of cloud computing, automation, and DevSecOps, the concept of "everything as code" has become increasingly popular and relevant. But what does it mean, and what are the benefits and challenges of adopting it?
+In the era of cloud computing, automation, and DevSecOps, the concept of "everything as code" or simply "as code" has become increasingly popular and relevant. But what does it mean, and what are the benefits and challenges of adopting it?
 
 Everything as code (EaC) is a paradigm that treats any aspect of software development, delivery, or operation as a code artifact that can be versioned, tested, and deployed using the same tools and processes as the application code. EaC encompasses various domains, such as:
 
-- **Infrastructure as code (IaC)**: The practice of defining and managing cloud resources, such as servers, networks, and storage, using configuration files or scripts.
+- **Infrastructure as code (IaC)**: The practice of defining and managing cloud resources, such as servers, networks, and storage, using configuration files or scripts. Terraform is the best representations of Infrastructure as code.
 - **Policy as code (PaC)**: The practice of expressing and enforcing security, compliance, or governance rules as code that can be integrated into the development and deployment pipelines.
 - **Diagram as code (DaC)**: The practice of creating and updating diagrams, such as architecture diagrams or flowcharts, using code that can be rendered into graphical formats.
 - **Presentation as code (PrC)**: The practice of creating and updating presentations, such as slides or reports, using code that can be converted into different formats or platforms.
@@ -55,27 +55,12 @@ Is it justified to use EaC for each use case? The answer depends on several fact
 such as:
 
 - The nature and scope of the project: Some projects may benefit more from EaC than others,
-depending on their size,
-complexity,
-or domain. For example,
-a large-scale,
-distributed,
-or data-intensive project may benefit more from IaC,
-WaC,
-or AIC than a small-scale,
-monolithic,
-or logic-intensive project.
+depending on their size, complexity,or domain. For example, a large-scale, distributed, or data-intensive project may benefit more from IaC, WaC, or AIC than a small-scale, monolithic, or logic-intensive project.
 - The maturity and availability of the tools and platforms: Some tools and platforms may support EaC better than others,
-depending on their features,
-functionality,
-or compatibility. For example,
-some cloud providers may offer more options and flexibility for IaC than others,
-or some AI frameworks may offer more capabilities and performance for AIC than others.
+depending on their features, functionality, or compatibility. For example, some cloud providers may offer more options and flexibility for IaC than others, or some AI frameworks may offer more capabilities and performance for AIC than others.
 - The skills and preferences of the developers and operators: Some developers and operators may prefer EaC over others,
-depending on their skills,
-experience,
-or style. For example,
-some developers may enjoy writing code more than using graphical interfaces,
+depending on their skills, experience,
+or style. For example, some developers may enjoy writing code more than using graphical interfaces,
 or some operators may prefer using code more than using dashboards.
 
 In conclusion, EaC is a powerful and promising paradigm that can enhance software development, delivery, or operation. However, it also comes with its own challenges and trade-offs that need to be considered carefully before adopting it. EaC is not a one-size-fits-all solution, but rather a context-dependent choice that depends on the project, the tools, and the people involved.
