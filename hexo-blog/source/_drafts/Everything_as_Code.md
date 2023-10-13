@@ -1,6 +1,6 @@
 ---
 title: Everything as Code
-date: 2024-10-15 03:55:01
+date: 2023-10-15 03:55:01
 tags:
 categories:
   - Development
