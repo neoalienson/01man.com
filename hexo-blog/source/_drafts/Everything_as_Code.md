@@ -63,4 +63,20 @@ depending on their skills, experience,
 or style. For example, some developers may enjoy writing code more than using graphical interfaces,
 or some operators may prefer using code more than using dashboards.
 
+## Status of as code in each domain
+
+| as code | status | justified (5 star max) | 
+| --- | --- | --- |
+| Infrastructure | Very mature and widely use | :star::star::star::star::star: |
+| Policy | Mature but not being widely use | :star::star::star: |
+| Diagram | Depends on diagram type. Some is difficult to adjust layout | :star::star::star: |
+| Presentation | Difficult to fine tune layout and create animations | :star: | 
+| Database  | | :star::star::star::star::star: |
+| Documentation | | :star::star::star: |
+| Configuration  | | :star::star::star: |
+| Workflow   | | :star::star::star: |
+| Process    | | :star::star::star: |
+
+## Conclusion
+
 In conclusion, EaC is a powerful and promising paradigm that can enhance software development, delivery, or operation. However, it also comes with its own challenges and trade-offs that need to be considered carefully before adopting it. EaC is not a one-size-fits-all solution, but rather a context-dependent choice that depends on the project, the tools, and the people involved.
