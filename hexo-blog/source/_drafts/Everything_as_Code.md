@@ -54,16 +54,13 @@ reliability, and quality. This may require additional resources, time, or expert
 Is it justified to use EaC for each use case? The answer depends on several factors,
 such as:
 
-- The nature and scope of the project: Some projects may benefit more from EaC than others,
-depending on their size, complexity,or domain. For example, a large-scale, distributed, or data-intensive project may benefit more from IaC, WaC, or AIC than a small-scale, monolithic, or logic-intensive project.
-- The maturity and availability of the tools and platforms: Some tools and platforms may support EaC better than others,
-depending on their features, functionality, or compatibility. For example, some cloud providers may offer more options and flexibility for IaC than others, or some AI frameworks may offer more capabilities and performance for AIC than others.
-- The skills and preferences of the developers and operators: Some developers and operators may prefer EaC over others,
-depending on their skills, experience,
-or style. For example, some developers may enjoy writing code more than using graphical interfaces,
-or some operators may prefer using code more than using dashboards.
+- The nature and scope of the project: Some projects may benefit more from EaC than others, depending on their size, complexity,or domain. For example, a large-scale, distributed, or data-intensive project may benefit more from IaC, WaC, or AIC than a small-scale, monolithic, or logic-intensive project.
+- The maturity and availability of the tools and platforms: Some tools and platforms may support EaC better than others,depending on their features, functionality, or compatibility. For example, some cloud providers may offer more options and flexibility for IaC than others, or some AI frameworks may offer more capabilities and performance for AIC than others.
+- The skills and preferences of the developers and operators: Some developers and operators may prefer EaC over others,depending on their skills, experience, or style. For example, some developers may enjoy writing code more than using graphical interfaces, or some operators may prefer using code more than using dashboards.
 
 ## Status of as code in each domain
+
+With the above factor, below is the scale from my personal view,
 
 | as code | status | justified (5 star max) | 
 | --- | --- | --- |
