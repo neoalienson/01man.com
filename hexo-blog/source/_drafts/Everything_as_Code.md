@@ -23,14 +23,14 @@ Everything as code (EaC) is a paradigm that treats any aspect of software develo
 - **Infrastructure as code (IaC)**: The practice of defining and managing cloud resources, such as servers, networks, and storage, using configuration files or scripts. Terraform is the best representations of Infrastructure as code.
 - **Policy as code (PaC)**: The practice of expressing and enforcing security, compliance, or governance rules as code that can be integrated into the development and deployment pipelines.
 - **Diagram as code (DaC)**: The practice of creating and updating diagrams, such as architecture diagrams or flowcharts, using code that can be rendered into graphical formats.
-- **Presentation as code (PrC)**: The practice of creating and updating presentations, such as slides or reports, using code that can be converted into different formats or platforms.
+- **Presentation as code (PrC)**: The practice of creating and updating presentations, such as slides or reports, using code that can be converted into different formats or platforms. [slidev](https://sli.dev/) is one of the tool but HTML/CSS/JS and VBA can be an less human-readable alternative.
 - **Database as code (DbC)**: The practice of defining and managing database schemas, data, and migrations using code that can be executed by database engines or tools.
 - **Documentation as code (DoC)**: The practice of writing and maintaining documentation using plain text formats, such as Markdown or AsciiDoc, that can be processed by documentation generators or integrated into code repositories.
 - **Configuration as code (CaC)**: The practice of defining and managing application settings, such as environment variables or feature flags, using code that can be applied dynamically or statically.
 - **Workflow as code (WaC)**: The practice of defining and orchestrating complex workflows, such as data pipelines or business processes, using code that can be executed by workflow engines or platforms.
 - **Process as code (PaC)**: The practice of defining and automating software development or operation processes, such as testing, deployment, or monitoring, using code that can be run by process tools or frameworks.
 - **Quality as code (QaC)**: The practice of defining and measuring software quality attributes, such as performance, reliability, or security, using code that can be integrated into the development and deployment pipelines.
-- **UI as code (UIC)**: The practice of creating and updating user interfaces, such as web pages or mobile apps, using code that can be rendered into different devices or platforms.
+- **UI as code (UIC)**: The practice of creating and updating user interfaces, such as web pages or mobile apps, using code that can be rendered into different devices or platforms. 
 - **AI as code (AIC)**: The practice of creating and updating artificial intelligence models, such as machine learning or deep learning models, using code that can be trained and deployed using AI frameworks or platforms. Meanwhile, model can be layered" with inferencing. ollama has Dockerfile like as code that can be used for that purpose beside system prompt.
 
 ## The main advantages of EaC are:
@@ -73,6 +73,7 @@ With the above factor, below is the scale from my personal view,
 | Configuration  | | :star::star::star: |
 | Workflow   | | :star::star::star: |
 | Process    | | :star::star::star: |
+| Process    | HTML, Android, iOS | :star::star::star: |
 | AI    | Model can be layered | :star::star: |
 
 ## Conclusion
