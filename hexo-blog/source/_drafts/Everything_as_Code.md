@@ -25,7 +25,7 @@ Everything as code (EaC) is a paradigm that treats any aspect of software develo
 - **Diagram as code (DaC)**: The practice of creating and updating diagrams, such as architecture diagrams or flowcharts, using code that can be rendered into graphical formats.
 - **Presentation as code (PrC)**: The practice of creating and updating presentations, such as slides or reports, using code that can be converted into different formats or platforms. [slidev](https://sli.dev/) is one of the tool but HTML/CSS/JS and VBA can be an less human-readable alternative.
 - **Database as code (DbC)**: The practice of defining and managing database schemas, data, and migrations using code that can be executed by database engines or tools.
-- **Documentation as code (DoC)**: The practice of writing and maintaining documentation using plain text formats, such as Markdown or AsciiDoc, that can be processed by documentation generators or integrated into code repositories.
+- **Documentation as code (DaC)**: The practice of writing and maintaining documentation using plain text formats, such as Markdown or AsciiDoc, that can be processed by documentation generators or integrated into code repositories. There are countless frame to generate human-readble document from programmer friendly code.
 - **Configuration as code (CaC)**: The practice of defining and managing application settings, such as environment variables or feature flags, using code that can be applied dynamically or statically.
 - **Workflow as code (WaC)**: The practice of defining and orchestrating complex workflows, such as data pipelines or business processes, using code that can be executed by workflow engines or platforms.
 - **Process as code (PaC)**: The practice of defining and automating software development or operation processes, such as testing, deployment, or monitoring, using code that can be run by process tools or frameworks.
@@ -69,7 +69,7 @@ With the above factor, below is the scale from my personal view,
 | Diagram | Depends on diagram type. Some is difficult to adjust layout | :star::star::star: |
 | Presentation | Difficult to fine tune layout and create animations | :star: | 
 | Database  | | :star::star::star::star::star: |
-| Documentation | | :star::star::star: |
+| Documentation | Markdown and many more | :star::star::star::star: |
 | Configuration  | | :star::star::star: |
 | Workflow   | | :star::star::star: |
 | Process    | | :star::star::star: |
