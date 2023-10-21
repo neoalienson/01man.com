@@ -18,7 +18,7 @@ prompt: write a blog post about everything as code, which includes infrastructur
 
 In the era of cloud computing, automation, and DevSecOps, the concept of "everything as code" or simply "as code" has become increasingly popular and relevant. But what does it mean, and what are the benefits and challenges of adopting it?
 
-Everything as code (EaC) is a paradigm that treats any aspect of software development, delivery, or operation as a code artifact that can be versioned, tested, and deployed using the same tools and processes as the application code. As code encompasses various domains, such as:
+Everything as code is a paradigm that treats any aspect of software development, delivery, or operation as a code artifact that can be versioned, tested, and deployed using the same tools and processes as the application code. As code encompasses various domains, such as:
 
 - **Infrastructure as code (IaC)**: The practice of defining and managing cloud resources, such as servers, networks, and storage, using configuration files or scripts. Terraform is the best representations of Infrastructure as code.
 - **Policy as code (PaC)**: The practice of expressing and enforcing security, compliance, or governance rules as code that can be integrated into the development and deployment pipelines.
@@ -26,7 +26,7 @@ Everything as code (EaC) is a paradigm that treats any aspect of software develo
 - **Presentation as code (PrC)**: The practice of creating and updating presentations, such as slides or reports, using code that can be converted into different formats or platforms. [slidev](https://sli.dev/) is one of the tool but HTML/CSS/JS and VBA can be an less human-readable alternative.
 - **Database as code (DbC)**: The practice of defining and managing database schemas, data, and migrations using code that can be executed by database engines or tools.
 - **Documentation as code (DaC)**: The practice of writing and maintaining documentation using plain text formats, such as Markdown or AsciiDoc, that can be processed by documentation generators or integrated into code repositories. There are countless frame to generate human-readble document from programmer friendly code.
-- **Configuration as code (CaC)**: The practice of defining and managing application settings, such as environment variables or feature flags, using code that can be applied dynamically or statically.
+- **Configuration Management as code (CMaC)**: The practice of defining and managing application settings, such as environment variables or feature flags, using code that can be applied dynamically or statically.
 - **Workflow as code (WaC)**: The practice of defining and orchestrating complex workflows, such as data pipelines or business processes, using code that can be executed by workflow engines or platforms.
 - **Process as code (PaC)**: The practice of defining and automating software development or operation processes, such as testing, deployment, or monitoring, using code that can be run by process tools or frameworks.
 - **Quality as code (QaC)**: The practice of defining and measuring software quality attributes, such as performance, reliability, or security, using code that can be integrated into the development and deployment pipelines.
