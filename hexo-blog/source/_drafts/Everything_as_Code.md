@@ -1,5 +1,5 @@
 ---
-title: Everything as Code
+title: Everything as Code - A Trend or a Necessity?
 date: 2023-10-15 03:55:01
 tags:
 categories:
@@ -13,8 +13,6 @@ prompt: write a blog post about everything as code, which includes infrastructur
   margin-bottom: 20px; 
 }
 </style>
-
-# Everything as Code: A Trend or a Necessity?
 
 In the era of cloud computing, automation, and DevSecOps, the concept of "everything as code" or simply "as code" has become increasingly popular and relevant. But what does it mean, and what are the benefits and challenges of adopting it?
 
