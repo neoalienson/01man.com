@@ -19,8 +19,8 @@ In the era of cloud computing, automation, and DevSecOps, the concept of "everyt
 Everything as code is a paradigm that treats any aspect of software development, delivery, or operation as a code artifact that can be versioned, tested, and deployed using the same tools and processes as the application code. As code encompasses various domains, such as:
 
 - **Infrastructure as code (IaC)**: The practice of defining and managing cloud resources, such as servers, networks, and storage, using configuration files or scripts. Terraform is the best representations of Infrastructure as code.
-- **Policy as code (PaC)**: The practice of expressing and enforcing security, compliance, or governance rules as code that can be integrated into the development and deployment pipelines.
-- **Diagram as code (DaC)**: The practice of creating and updating diagrams, such as architecture diagrams or flowcharts, using code that can be rendered into graphical formats.
+- **Policy as code**: The practice of expressing and enforcing security, compliance, or governance rules as code that can be integrated into the development and deployment pipelines.
+- **Diagram as code**: The practice of creating and updating diagrams, such as architecture diagrams or flowcharts, using code that can be rendered into graphical formats.
 - **Presentation as code**: The practice of creating and updating presentations, such as slides or reports, using code that can be converted into different formats or platforms. [slidev](https://sli.dev/) is one of the tool but HTML/CSS/JS and VBA can be an less human-readable alternative.
 - **Database as code**: The practice of defining and managing database schemas, data, and migrations using code that can be executed by database engines or tools.
 - **Documentation as code**: The practice of writing and maintaining documentation using plain text formats, such as Markdown or AsciiDoc, that can be processed by documentation generators or integrated into code repositories. There are countless frame to generate human-readble document from programmer friendly code.
