@@ -25,9 +25,11 @@ Everything as code is a paradigm that treats any aspect of software development,
 - **Database as code**: The practice of defining and managing database schemas, data, and migrations using code that can be executed by database engines or tools.
 - **Documentation as code**: The practice of writing and maintaining documentation using plain text formats, such as Markdown or AsciiDoc, that can be processed by documentation generators or integrated into code repositories. There are countless frame to generate human-readble document from programmer friendly code.
 - **Configuration Management as code**: The practice of defining and managing application settings, such as environment variables or feature flags, using code that can be applied dynamically or statically.
+<!--
 - **Workflow as code**: The practice of defining and orchestrating complex workflows, such as data pipelines or business processes, using code that can be executed by workflow engines or platforms.
 - **Process as code**: The practice of defining and automating software development or operation processes, such as testing, deployment, or monitoring, using code that can be run by process tools or frameworks.
 - **Quality as code**: The practice of defining and measuring software quality attributes, such as performance, reliability, or security, using code that can be integrated into the development and deployment pipelines.
+-->
 - **UI as code**: The practice of creating and updating user interfaces, such as web pages or mobile apps, using code that can be rendered into different devices or platforms. UI is usually stored with XML and HTML but it is not uncommon generate from programming language.
 - **AI as code**: The practice of creating and updating artificial intelligence models, such as machine learning or deep learning models, using code that can be trained and deployed using AI frameworks or platforms. Meanwhile, model can be layered" with inferencing. ollama has Dockerfile like as code that can be used for that purpose beside system prompt.
 
@@ -69,8 +71,6 @@ With the above factor, below is the scale from my personal view,
 | Database  | | :star::star::star::star::star: |
 | Documentation | Markdown and many more | :star::star::star::star: |
 | Configuration  | | :star::star::star: |
-| Workflow   | | :star::star::star: |
-| Process    | | :star::star::star: |
 | UI    | Can be generated with programming language | :star::star::star::star: |
 | AI    | Model can be layered | :star::star: |
 
