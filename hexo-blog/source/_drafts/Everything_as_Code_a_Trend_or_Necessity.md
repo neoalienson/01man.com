@@ -1,6 +1,6 @@
 ---
 title: Everything as Code - A Trend or a Necessity?
-date: 2023-10-15 03:55:01
+date: 2023-10-28 03:55:01
 tags:
 categories:
   - Development
