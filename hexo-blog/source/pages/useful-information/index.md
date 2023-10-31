@@ -25,6 +25,17 @@ This page contains useful information to myself. It also serve as a testing page
 * [Snort (IDS)](https://www.snort.org)
 * [Vulnerability Database](https://www.cybersecurity-help.cz/vdb/)
 
+#### Passkey support
+Passkey is a type of authentication method used to secure access to various online services and accounts. It is a unique key pair consisting of a public key and a private key that is generated specifically for an individual user. The passkey serves as a secure and convenient way to authenticate and encrypt data, providing an additional layer of protection for user accounts.
+
+Services that support Passkey:
+* [Bitwarden](https://bitwarden.com/)
+* Microsoft Edge
+
+Websites that support Passkey:
+* [GitHub](https://github.com)
+
+
 
 ### ASP.Net
 * [ASP.NET string.Format (Chinese)](aspnet-string-format.html)
