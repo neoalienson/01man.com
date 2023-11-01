@@ -30,7 +30,7 @@ Passkey is a type of authentication method used to secure access to various onli
 
 Services that support Passkey:
 * [Bitwarden](https://bitwarden.com/)
-* Microsoft Edge
+* Windows Hello
 
 Websites that support Passkey:
 * [GitHub](https://github.com)
