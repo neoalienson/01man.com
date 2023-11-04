@@ -30,14 +30,17 @@ Passkey is a type of authentication method used to secure access to various onli
 
 Services that support Passkey:
 * [Bitwarden](https://bitwarden.com/)
-* Windows Hello
+* Windows (Windows Hello)
+* iOS
+* Andorid
 
 Websites that support Passkey:
+* [Google Account](https://myaccount.google.com)
 * [GitHub](https://github.com)
 
 Websites that do not yet support Passkey but support Multi-Factor Authentication (MFA):
 * [Gitlab](https://gitlab.com)
-* [Bitbucket](https://bitbucket.com)
+* [Atlassian](https://atlassian.com) and its product family such as [Bitbucket](https://bitbucket.com)
 
 ### ASP.Net
 * [ASP.NET string.Format (Chinese)](aspnet-string-format.html)
