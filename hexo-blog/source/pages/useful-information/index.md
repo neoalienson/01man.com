@@ -35,8 +35,9 @@ Services that support Passkey:
 * Andorid
 
 Websites that support Passkey:
-* [Google Account](https://myaccount.google.com)
+* [Amazon](https://amazon.com)
 * [GitHub](https://github.com)
+* [Google Account](https://myaccount.google.com)
 
 Websites that do not yet support Passkey but support Multi-Factor Authentication (MFA):
 * [Gitlab](https://gitlab.com)
