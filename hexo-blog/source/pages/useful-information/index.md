@@ -36,12 +36,16 @@ Services that support Passkey:
 
 Websites that support Passkey:
 * [Amazon](https://amazon.com)
+* [Apple ID](https://apple.com) iOS only
 * [GitHub](https://github.com)
 * [Google Account](https://myaccount.google.com)
+* [Internet Identity](https://identity.ic0.app/)
 
 Websites that do not yet support Passkey but support Multi-Factor Authentication (MFA):
-* [Gitlab](https://gitlab.com)
 * [Atlassian](https://atlassian.com) and its product family such as [Bitbucket](https://bitbucket.com)
+* [Gitlab](https://gitlab.com)
+* [terraform.io](https://terraform.io)
+* [Wellfound.com](https://wellfound.com/)
 
 ### ASP.Net
 * [ASP.NET string.Format (Chinese)](aspnet-string-format.html)
