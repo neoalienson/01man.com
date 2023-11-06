@@ -34,12 +34,13 @@ Services that support Passkey:
 * iOS
 * Andorid
 
-Websites that support Passkey:
+Websites/Apps that support Passkey:
 * [Amazon](https://amazon.com)
 * [Apple ID](https://apple.com) iOS only
 * [GitHub](https://github.com)
 * [Google Account](https://myaccount.google.com)
 * [Internet Identity](https://identity.ic0.app/)
+* WhatsApp (Android & iOS)
 
 Websites that do not yet support Passkey but support Multi-Factor Authentication (MFA):
 * [Atlassian](https://atlassian.com) and its product family such as [Bitbucket](https://bitbucket.com)
