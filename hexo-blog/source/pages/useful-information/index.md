@@ -41,6 +41,7 @@ Websites/Apps that support Passkey:
 * [Google Account](https://myaccount.google.com)
 * [Internet Identity](https://identity.ic0.app/)
 * WhatsApp (Android & iOS)
+* [Yahoo](https://yahoo.com/)
 
 Websites that do not yet support Passkey but support Multi-Factor Authentication (MFA):
 * [Atlassian](https://atlassian.com) and its product family such as [Bitbucket](https://bitbucket.com)
