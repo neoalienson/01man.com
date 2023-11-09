@@ -40,6 +40,7 @@ Websites/Apps that support Passkey:
 * [GitHub](https://github.com)
 * [Google Account](https://myaccount.google.com)
 * [Internet Identity](https://identity.ic0.app/)
+* [Linked In](https://www.linkedin.com/)
 * WhatsApp (Android & iOS)
 * [Yahoo](https://yahoo.com/)
 
